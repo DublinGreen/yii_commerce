@@ -1,0 +1,545 @@
+Nov 25 07:22:51 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'The system is unable to find the requested action "edit".' in C:\wamp\www\yorshop\common\lib\Yii\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(270): CController->missingAction('edit')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('edit')
+#2 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('user/profileFie...')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('user/profileFie...')
+#4 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#6 {main}
+REQUEST_URI=/yorshop/backend/www/user/profileField/edit
+---
+Nov 25 09:22:21 [php                           ] : <E> Missing argument 2 for CrudController::index(), called in C:\wamp\www\yorshop\backend\controllers\OptionController.php on line 38 and defined (C:\wamp\www\yorshop\backend\components\CrudController.php:216)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): OptionController->runAction()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\wamp\www\yorshop\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): OptionController->filterChangePassword()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): OptionController->filterAccessControl()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): OptionController->runActionWithFilters()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): OptionController->run()
+#13 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#15 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#16 C:\wamp\www\yorshop\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/backend/www/option/index/
+Nov 25 09:23:28 [php                           ] : <E> htmlspecialchars() expects parameter 1 to be string, array given (C:\wamp\www\yorshop\common\lib\Yii\web\helpers\CHtml.php:98)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\helpers\CHtml.php(153): renderAttributes()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\helpers\CHtml.php(1983): tag()
+#2 C:\wamp\www\yorshop\common\extensions\bootstrap\helpers\TbHtml.php(2221): activeInputField()
+#3 C:\wamp\www\yorshop\common\extensions\bootstrap\helpers\TbHtml.php(1497): activeTextInputField()
+#4 C:\wamp\www\yorshop\common\extensions\bootstrap\widgets\TbActiveForm.php(180): activeTextField()
+#5 C:\wamp\www\yorshop\backend\views\option\_form.php(26): TbActiveForm->textField()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): OptionController->renderInternal()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): OptionController->renderFile()
+#9 C:\wamp\www\yorshop\backend\controllers\OptionController.php(40): OptionController->renderPartial()
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): OptionController->actionCreate()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): OptionController->runAction()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\wamp\www\yorshop\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): OptionController->filterChangePassword()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): OptionController->filterAccessControl()
+#20 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#22 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): OptionController->runActionWithFilters()
+#23 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): OptionController->run()
+#24 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#25 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#26 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#27 C:\wamp\www\yorshop\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/backend/www/option/create/
+Nov 25 10:31:15 [exception.CException          ] : <E> exception 'CException' with message 'OptionValue and its behaviors do not have a method or closure named "getData".' in C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php:265
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(225): CComponent->__call('getData', Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(107): CActiveRecord->__call('getData', Array)
+#2 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(107): OptionValue->getData()
+#3 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridView.php(314): CBaseListView->init()
+#4 C:\wamp\www\yorshop\common\extensions\bootstrap\widgets\TbGridView.php(50): CGridView->init()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(147): TbGridView->init()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#7 C:\wamp\www\yorshop\backend\views\option\_form.php(56): CBaseController->widget('bootstrap.widge...', Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#11 C:\wamp\www\yorshop\backend\controllers\OptionController.php(42): CController->renderPartial('_form', Array, false, true)
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): OptionController->actionCreate()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\wamp\www\yorshop\backend\components\Controller.php(68): CFilter->filter(Object(CFilterChain))
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): Controller->filterChangePassword(Object(CFilterChain))
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#24 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('create')
+#26 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('option/create')
+#27 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('option/create')
+#28 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#29 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#30 {main}
+REQUEST_URI=/yorshop/backend/www/option/create/
+HTTP_REFERER=http://localhost/yorshop/backend/www/option/index/
+---
+Nov 25 10:41:07 [exception.CException          ] : <E> exception 'CException' with message 'OptionValue and its behaviors do not have a method or closure named "getData".' in C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php:265
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(225): CComponent->__call('getData', Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(107): CActiveRecord->__call('getData', Array)
+#2 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(107): OptionValue->getData()
+#3 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridView.php(314): CBaseListView->init()
+#4 C:\wamp\www\yorshop\common\extensions\bootstrap\widgets\TbGridView.php(50): CGridView->init()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(147): TbGridView->init()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#7 C:\wamp\www\yorshop\backend\views\option\_form.php(56): CBaseController->widget('bootstrap.widge...', Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#11 C:\wamp\www\yorshop\backend\controllers\OptionController.php(42): CController->renderPartial('_form', Array, false, true)
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): OptionController->actionCreate()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\wamp\www\yorshop\backend\components\Controller.php(68): CFilter->filter(Object(CFilterChain))
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): Controller->filterChangePassword(Object(CFilterChain))
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#24 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('create')
+#26 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('option/create')
+#27 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('option/create')
+#28 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#29 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#30 {main}
+REQUEST_URI=/yorshop/backend/www/option/create/
+HTTP_REFERER=http://localhost/yorshop/backend/www/option/index/
+---
+Nov 25 10:44:06 [exception.CException          ] : <E> exception 'CException' with message 'OptionValue and its behaviors do not have a method or closure named "getData".' in C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php:265
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(225): CComponent->__call('getData', Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(107): CActiveRecord->__call('getData', Array)
+#2 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(107): OptionValue->getData()
+#3 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridView.php(314): CBaseListView->init()
+#4 C:\wamp\www\yorshop\common\extensions\bootstrap\widgets\TbGridView.php(50): CGridView->init()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(147): TbGridView->init()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#7 C:\wamp\www\yorshop\backend\views\option\_form.php(56): CBaseController->widget('bootstrap.widge...', Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#11 C:\wamp\www\yorshop\backend\controllers\OptionController.php(42): CController->renderPartial('_form', Array, false, true)
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): OptionController->actionCreate()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\wamp\www\yorshop\backend\components\Controller.php(68): CFilter->filter(Object(CFilterChain))
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): Controller->filterChangePassword(Object(CFilterChain))
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#24 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('create')
+#26 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('option/create')
+#27 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('option/create')
+#28 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#29 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#30 {main}
+REQUEST_URI=/yorshop/backend/www/option/create/
+HTTP_REFERER=http://localhost/yorshop/backend/www/option/index/
+---
+Nov 25 10:44:12 [exception.CException          ] : <E> exception 'CException' with message 'OptionValue and its behaviors do not have a method or closure named "getData".' in C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php:265
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(225): CComponent->__call('getData', Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(107): CActiveRecord->__call('getData', Array)
+#2 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(107): OptionValue->getData()
+#3 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridView.php(314): CBaseListView->init()
+#4 C:\wamp\www\yorshop\common\extensions\bootstrap\widgets\TbGridView.php(50): CGridView->init()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(147): TbGridView->init()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#7 C:\wamp\www\yorshop\backend\views\option\_form.php(56): CBaseController->widget('bootstrap.widge...', Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#11 C:\wamp\www\yorshop\backend\controllers\OptionController.php(42): CController->renderPartial('_form', Array, false, true)
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): OptionController->actionCreate()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\wamp\www\yorshop\backend\components\Controller.php(68): CFilter->filter(Object(CFilterChain))
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): Controller->filterChangePassword(Object(CFilterChain))
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#24 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('create')
+#26 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('option/create')
+#27 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('option/create')
+#28 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#29 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#30 {main}
+REQUEST_URI=/yorshop/backend/www/option/create/
+HTTP_REFERER=http://localhost/yorshop/backend/www/option/index/
+---
+Nov 25 10:47:01 [exception.CException          ] : <E> exception 'CException' with message 'OptionValue and its behaviors do not have a method or closure named "getData".' in C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php:265
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(225): CComponent->__call('getData', Array)
+#1 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(107): CActiveRecord->__call('getData', Array)
+#2 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(107): OptionValue->getData()
+#3 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridView.php(314): CBaseListView->init()
+#4 C:\wamp\www\yorshop\common\extensions\bootstrap\widgets\TbGridView.php(50): CGridView->init()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(147): TbGridView->init()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#7 C:\wamp\www\yorshop\backend\views\option\_form.php(43): CBaseController->widget('bootstrap.widge...', Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#11 C:\wamp\www\yorshop\backend\controllers\OptionController.php(42): CController->renderPartial('_form', Array, false, true)
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): OptionController->actionCreate()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\wamp\www\yorshop\backend\components\Controller.php(68): CFilter->filter(Object(CFilterChain))
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): Controller->filterChangePassword(Object(CFilterChain))
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#24 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('create')
+#26 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('option/create')
+#27 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('option/create')
+#28 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#29 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#30 {main}
+REQUEST_URI=/yorshop/backend/www/option/create/
+HTTP_REFERER=http://localhost/yorshop/backend/www/option/index/
+---
+Nov 25 10:53:33 [exception.CException          ] : <E> exception 'CException' with message 'Alias "common.extension.editable.EditableColumn" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php:316
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php(196): YiiBase::import('common.extensio...', true)
+#1 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridView.php(363): YiiBase::createComponent(Array, Object(TbGridView))
+#2 C:\wamp\www\yorshop\common\extensions\bootstrap\widgets\TbGridView.php(81): CGridView->initColumns()
+#3 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridView.php(334): TbGridView->initColumns()
+#4 C:\wamp\www\yorshop\common\extensions\bootstrap\widgets\TbGridView.php(50): CGridView->init()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(147): TbGridView->init()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#7 C:\wamp\www\yorshop\backend\views\option\_form.php(56): CBaseController->widget('bootstrap.widge...', Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#11 C:\wamp\www\yorshop\backend\controllers\OptionController.php(42): CController->renderPartial('_form', Array, false, true)
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): OptionController->actionCreate()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\wamp\www\yorshop\backend\components\Controller.php(68): CFilter->filter(Object(CFilterChain))
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): Controller->filterChangePassword(Object(CFilterChain))
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#24 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('create')
+#26 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('option/create')
+#27 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('option/create')
+#28 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#29 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#30 {main}
+REQUEST_URI=/yorshop/backend/www/option/create/
+HTTP_REFERER=http://localhost/yorshop/backend/www/option/index/
+---
+Nov 25 10:53:37 [exception.CException          ] : <E> exception 'CException' with message 'Alias "common.extension.editable.EditableColumn" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php:316
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php(196): YiiBase::import('common.extensio...', true)
+#1 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridView.php(363): YiiBase::createComponent(Array, Object(TbGridView))
+#2 C:\wamp\www\yorshop\common\extensions\bootstrap\widgets\TbGridView.php(81): CGridView->initColumns()
+#3 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridView.php(334): TbGridView->initColumns()
+#4 C:\wamp\www\yorshop\common\extensions\bootstrap\widgets\TbGridView.php(50): CGridView->init()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(147): TbGridView->init()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#7 C:\wamp\www\yorshop\backend\views\option\_form.php(56): CBaseController->widget('bootstrap.widge...', Array)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#11 C:\wamp\www\yorshop\backend\controllers\OptionController.php(42): CController->renderPartial('_form', Array, false, true)
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): OptionController->actionCreate()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\wamp\www\yorshop\backend\components\Controller.php(68): CFilter->filter(Object(CFilterChain))
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): Controller->filterChangePassword(Object(CFilterChain))
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#24 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('create')
+#26 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('option/create')
+#27 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('option/create')
+#28 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#29 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#30 {main}
+REQUEST_URI=/yorshop/backend/www/option/create/
+HTTP_REFERER=http://localhost/yorshop/backend/www/option/index/
+---
+Nov 25 11:40:28 [exception.CException          ] : <E> exception 'CException' with message 'Alias "editable.EditableField" is invalid. Make sure it points to an existing directory or file.' in C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php:341
+Stack trace:
+#0 C:\wamp\www\yorshop\common\extensions\editable\EditableColumn.php(11): YiiBase::import('editable.Editab...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php(314): require('C:\wamp\www\yor...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php(196): YiiBase::import('common.extensio...', true)
+#3 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridView.php(363): YiiBase::createComponent(Array, Object(TbGridView))
+#4 C:\wamp\www\yorshop\common\extensions\bootstrap\widgets\TbGridView.php(81): CGridView->initColumns()
+#5 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridView.php(334): TbGridView->initColumns()
+#6 C:\wamp\www\yorshop\common\extensions\bootstrap\widgets\TbGridView.php(50): CGridView->init()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(147): TbGridView->init()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#9 C:\wamp\www\yorshop\backend\views\option\_form.php(57): CBaseController->widget('bootstrap.widge...', Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#13 C:\wamp\www\yorshop\backend\controllers\OptionController.php(42): CController->renderPartial('_form', Array, false, true)
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): OptionController->actionCreate()
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#18 C:\wamp\www\yorshop\backend\components\Controller.php(68): CFilter->filter(Object(CFilterChain))
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): Controller->filterChangePassword(Object(CFilterChain))
+#20 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#22 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#23 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#24 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#25 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#26 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('create')
+#28 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('option/create')
+#29 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('option/create')
+#30 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#31 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#32 {main}
+REQUEST_URI=/yorshop/backend/www/option/create/
+HTTP_REFERER=http://localhost/yorshop/backend/www/option/index/
+---
+Nov 25 12:12:17 [exception.CException          ] : <E> exception 'CException' with message 'Alias "editable.EditableField" is invalid. Make sure it points to an existing directory or file.' in C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php:341
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CWidgetFactory.php(146): YiiBase::import('editable.Editab...', true)
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(OptionController), 'editable.Editab...', Array)
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(172): CBaseController->createWidget('editable.Editab...', Array)
+#3 C:\wamp\www\yorshop\backend\views\option\_form.php(67): CBaseController->widget('editable.Editab...', Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#7 C:\wamp\www\yorshop\backend\controllers\OptionController.php(44): CController->renderPartial('_form', Array, false, true)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): OptionController->actionCreate()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\wamp\www\yorshop\backend\components\Controller.php(68): CFilter->filter(Object(CFilterChain))
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): Controller->filterChangePassword(Object(CFilterChain))
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#20 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('create')
+#22 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('option/create')
+#23 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('option/create')
+#24 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#25 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#26 {main}
+REQUEST_URI=/yorshop/backend/www/option/create/
+HTTP_REFERER=http://localhost/yorshop/backend/www/option/index/
+---
+Nov 25 12:13:49 [php                           ] : <E> copy(C:\wamp\www\yorshop\backend\www\assets\c0838a4c\backend\www\assets\6727ec09\assets\6727ec09\assets\6727ec09\assets\6727ec09\assets\6727ec09\assets\6727ec09\assets\6727ec09\assets\6727ec09\assets\6727ec09\assets\6727ec09\assets\1b412a3f\css\bootstrap-responsive.css): failed to open stream: Invalid argument (C:\wamp\www\yorshop\common\lib\Yii\utils\CFileHelper.php:131)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\utils\CFileHelper.php(136): copyDirectoryRecursive()
+#1 C:\wamp\www\yorshop\common\lib\Yii\utils\CFileHelper.php(136): copyDirectoryRecursive()
+#2 C:\wamp\www\yorshop\common\lib\Yii\utils\CFileHelper.php(136): copyDirectoryRecursive()
+#3 C:\wamp\www\yorshop\common\lib\Yii\utils\CFileHelper.php(136): copyDirectoryRecursive()
+#4 C:\wamp\www\yorshop\common\lib\Yii\utils\CFileHelper.php(136): copyDirectoryRecursive()
+#5 C:\wamp\www\yorshop\common\lib\Yii\utils\CFileHelper.php(136): copyDirectoryRecursive()
+#6 C:\wamp\www\yorshop\common\lib\Yii\utils\CFileHelper.php(136): copyDirectoryRecursive()
+#7 C:\wamp\www\yorshop\common\lib\Yii\utils\CFileHelper.php(136): copyDirectoryRecursive()
+#8 C:\wamp\www\yorshop\common\lib\Yii\utils\CFileHelper.php(136): copyDirectoryRecursive()
+#9 C:\wamp\www\yorshop\common\lib\Yii\utils\CFileHelper.php(136): copyDirectoryRecursive()
+#10 C:\wamp\www\yorshop\common\lib\Yii\utils\CFileHelper.php(136): copyDirectoryRecursive()
+#11 C:\wamp\www\yorshop\common\lib\Yii\utils\CFileHelper.php(136): copyDirectoryRecursive()
+#12 C:\wamp\www\yorshop\common\lib\Yii\utils\CFileHelper.php(136): copyDirectoryRecursive()
+#13 C:\wamp\www\yorshop\common\lib\Yii\utils\CFileHelper.php(136): copyDirectoryRecursive()
+#14 C:\wamp\www\yorshop\common\lib\Yii\utils\CFileHelper.php(136): copyDirectoryRecursive()
+#15 C:\wamp\www\yorshop\common\lib\Yii\utils\CFileHelper.php(136): copyDirectoryRecursive()
+#16 C:\wamp\www\yorshop\common\lib\Yii\utils\CFileHelper.php(136): copyDirectoryRecursive()
+#17 C:\wamp\www\yorshop\common\lib\Yii\utils\CFileHelper.php(136): copyDirectoryRecursive()
+#18 C:\wamp\www\yorshop\common\lib\Yii\utils\CFileHelper.php(136): copyDirectoryRecursive()
+#19 C:\wamp\www\yorshop\common\lib\Yii\utils\CFileHelper.php(136): copyDirectoryRecursive()
+#20 C:\wamp\www\yorshop\common\lib\Yii\utils\CFileHelper.php(136): copyDirectoryRecursive()
+#21 C:\wamp\www\yorshop\common\lib\Yii\utils\CFileHelper.php(136): copyDirectoryRecursive()
+#22 C:\wamp\www\yorshop\common\lib\Yii\utils\CFileHelper.php(136): copyDirectoryRecursive()
+#23 C:\wamp\www\yorshop\common\lib\Yii\utils\CFileHelper.php(136): copyDirectoryRecursive()
+#24 C:\wamp\www\yorshop\common\lib\Yii\utils\CFileHelper.php(63): copyDirectoryRecursive()
+#25 C:\wamp\www\yorshop\common\lib\Yii\web\CAssetManager.php(251): copyDirectory()
+#26 C:\wamp\www\yorshop\common\extensions\editable\Editable.php(548): CAssetManager->publish()
+#27 C:\wamp\www\yorshop\common\extensions\editable\Editable.php(623): EditableField->registerAssets()
+#28 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(173): EditableField->run()
+#29 C:\wamp\www\yorshop\backend\views\option\_form.php(67): OptionController->widget()
+#30 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#31 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): OptionController->renderInternal()
+#32 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): OptionController->renderFile()
+#33 C:\wamp\www\yorshop\backend\controllers\OptionController.php(44): OptionController->renderPartial()
+#34 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): OptionController->actionCreate()
+#35 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#36 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): OptionController->runAction()
+#37 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#38 C:\wamp\www\yorshop\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#39 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): OptionController->filterChangePassword()
+#40 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#41 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#42 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#43 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): OptionController->filterAccessControl()
+#44 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#45 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#46 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): OptionController->runActionWithFilters()
+#47 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): OptionController->run()
+#48 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#49 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#50 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#51 C:\wamp\www\yorshop\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/backend/www/option/create/
+Nov 25 12:13:50 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "assets/c0838a4c/css/bootstrap-editable.css".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('assets/c0838a4c...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('assets/c0838a4c...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/backend/www/assets/c0838a4c/css/bootstrap-editable.css
+HTTP_REFERER=http://localhost/yorshop/backend/www/option/index/
+---
+Nov 25 12:13:50 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "assets/c0838a4c/js/bootstrap-editable.js".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('assets/c0838a4c...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('assets/c0838a4c...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/backend/www/assets/c0838a4c/js/bootstrap-editable.js?_=1385381630293
+HTTP_REFERER=http://localhost/yorshop/backend/www/option/index/
+---
+Nov 25 12:22:02 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "assets/c0838a4c/css/bootstrap-editable.css".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('assets/c0838a4c...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('assets/c0838a4c...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/backend/www/assets/c0838a4c/css/bootstrap-editable.css
+HTTP_REFERER=http://localhost/yorshop/backend/www/option/index/
+---
+Nov 25 12:22:03 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "assets/c0838a4c/js/bootstrap-editable.js".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('assets/c0838a4c...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('assets/c0838a4c...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/backend/www/assets/c0838a4c/js/bootstrap-editable.js?_=1385382122647
+HTTP_REFERER=http://localhost/yorshop/backend/www/option/index/
+---
+Nov 25 12:24:17 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "assets/c0838a4c/css/bootstrap-editable.css".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('assets/c0838a4c...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('assets/c0838a4c...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/backend/www/assets/c0838a4c/css/bootstrap-editable.css
+HTTP_REFERER=http://localhost/yorshop/backend/www/option/index/
+---
+Nov 25 12:25:26 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "assets/c0838a4c/css/bootstrap-editable.css".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('assets/c0838a4c...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('assets/c0838a4c...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/backend/www/assets/c0838a4c/css/bootstrap-editable.css
+HTTP_REFERER=http://localhost/yorshop/backend/www/option/index/
+---
+Nov 25 12:25:26 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "assets/c0838a4c/js/bootstrap-editable.js".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('assets/c0838a4c...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('assets/c0838a4c...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/backend/www/assets/c0838a4c/js/bootstrap-editable.js?_=1385382325750
+HTTP_REFERER=http://localhost/yorshop/backend/www/option/index/
+---
+Nov 25 16:01:32 [php                           ] : <E> Missing argument 2 for CrudController::index(), called in C:\wamp\www\yorshop\backend\controllers\CustomerController.php on line 248 and defined (C:\wamp\www\yorshop\backend\components\CrudController.php:216)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): CustomerController->runAction()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): CustomerController->filterAccessControl()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CustomerController->runActionWithFilters()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CustomerController->run()
+#9 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#11 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#12 C:\wamp\www\yorshop\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/backend/www/customer/index/
+Nov 25 16:03:27 [exception.CException          ] : <E> exception 'CException' with message 'Property "CustomerController.modelName" is not defined.' in C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yorshop\backend\controllers\CustomerController.php(248): CComponent->__get('modelName')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CustomerController->actionIndex()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('index')
+#11 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('customer/index')
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('customer/index')
+#13 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/yorshop/backend/www/customer/index/
+---

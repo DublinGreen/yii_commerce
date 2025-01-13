@@ -1,0 +1,174 @@
+Feb 15 10:41:17 [system.db.CDbCommand          ] : <E> CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`yorshop`.`order_product`, CONSTRAINT `order_product_ibfk_4` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE). The SQL statement executed was: DELETE FROM `product` WHERE `product`.`id`=3.
+Feb 15 10:41:17 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`yorshop`.`order_product`, CONSTRAINT `order_product_ibfk_4` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE). The SQL statement executed was: DELETE FROM `product` WHERE `product`.`id`=3' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1745): CDbCommand->execute()
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1168): CActiveRecord->deleteByPk('3')
+#2 C:\wamp\www\yorshop\backend\components\CrudController.php(142): CActiveRecord->delete()
+#3 C:\wamp\www\yorshop\backend\controllers\ProductController.php(445): CrudController->batchDelete('Product', Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProductController->actionBatchDelete()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\wamp\www\yorshop\backend\components\Controller.php(68): CFilter->filter(Object(CFilterChain))
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): Controller->filterChangePassword(Object(CFilterChain))
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('batchdelete')
+#18 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('product/batchde...')
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('product/batchde...')
+#20 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#22 {main}
+REQUEST_URI=/yorshop/backend/www/product/batchdelete/
+HTTP_REFERER=http://localhost/yorshop/backend/www/product/index/
+---
+Feb 15 10:41:31 [system.db.CDbCommand          ] : <E> CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`yorshop`.`order_product`, CONSTRAINT `order_product_ibfk_4` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE). The SQL statement executed was: DELETE FROM `product` WHERE `product`.`id`=3.
+Feb 15 10:41:31 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`yorshop`.`order_product`, CONSTRAINT `order_product_ibfk_4` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE). The SQL statement executed was: DELETE FROM `product` WHERE `product`.`id`=3' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1745): CDbCommand->execute()
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1168): CActiveRecord->deleteByPk('3')
+#2 C:\wamp\www\yorshop\backend\components\CrudController.php(142): CActiveRecord->delete()
+#3 C:\wamp\www\yorshop\backend\controllers\ProductController.php(445): CrudController->batchDelete('Product', Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProductController->actionBatchDelete()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\wamp\www\yorshop\backend\components\Controller.php(68): CFilter->filter(Object(CFilterChain))
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): Controller->filterChangePassword(Object(CFilterChain))
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('batchdelete')
+#18 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('product/batchde...')
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('product/batchde...')
+#20 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#22 {main}
+REQUEST_URI=/yorshop/backend/www/product/batchdelete/
+HTTP_REFERER=http://localhost/yorshop/backend/www/product/index/
+---
+Feb 15 12:56:01 [system.db.CDbCommand          ] : <E> CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`yorshop`.`order_product`, CONSTRAINT `order_product_ibfk_4` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE). The SQL statement executed was: DELETE FROM `product` WHERE `product`.`id`=3.
+Feb 15 12:56:01 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`yorshop`.`order_product`, CONSTRAINT `order_product_ibfk_4` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE). The SQL statement executed was: DELETE FROM `product` WHERE `product`.`id`=3' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1745): CDbCommand->execute()
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1168): CActiveRecord->deleteByPk('3')
+#2 C:\wamp\www\yorshop\backend\components\CrudController.php(142): CActiveRecord->delete()
+#3 C:\wamp\www\yorshop\backend\controllers\ProductController.php(445): CrudController->batchDelete('Product', Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProductController->actionBatchDelete()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\wamp\www\yorshop\backend\components\Controller.php(68): CFilter->filter(Object(CFilterChain))
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): Controller->filterChangePassword(Object(CFilterChain))
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('batchdelete')
+#18 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('product/batchde...')
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('product/batchde...')
+#20 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#22 {main}
+REQUEST_URI=/yorshop/backend/www/product/batchdelete/
+HTTP_REFERER=http://localhost/yorshop/backend/www/product/index/
+---
+Feb 15 13:59:30 [system.db.CDbCommand          ] : <E> CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`yorshop`.`order_product`, CONSTRAINT `order_product_ibfk_4` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE). The SQL statement executed was: DELETE FROM `product` WHERE `product`.`id`=3.
+Feb 15 13:59:30 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`yorshop`.`order_product`, CONSTRAINT `order_product_ibfk_4` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1745): CDbCommand->execute()
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1168): CActiveRecord->deleteByPk('3')
+#2 C:\wamp\www\yorshop\backend\components\CrudController.php(142): CActiveRecord->delete()
+#3 C:\wamp\www\yorshop\backend\controllers\ProductController.php(445): CrudController->batchDelete('Product', Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProductController->actionBatchDelete()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\wamp\www\yorshop\backend\components\Controller.php(68): CFilter->filter(Object(CFilterChain))
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): Controller->filterChangePassword(Object(CFilterChain))
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('batchdelete')
+#18 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('product/batchde...')
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('product/batchde...')
+#20 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#22 {main}
+REQUEST_URI=/yorshop/backend/www/product/batchdelete/
+HTTP_REFERER=http://localhost/yorshop/backend/www/product/index/
+---
+Feb 15 13:59:33 [system.db.CDbCommand          ] : <E> CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`yorshop`.`order_product`, CONSTRAINT `order_product_ibfk_4` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE). The SQL statement executed was: DELETE FROM `product` WHERE `product`.`id`=3.
+Feb 15 13:59:33 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`yorshop`.`order_product`, CONSTRAINT `order_product_ibfk_4` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1745): CDbCommand->execute()
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1168): CActiveRecord->deleteByPk('3')
+#2 C:\wamp\www\yorshop\backend\components\CrudController.php(142): CActiveRecord->delete()
+#3 C:\wamp\www\yorshop\backend\controllers\ProductController.php(445): CrudController->batchDelete('Product', Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProductController->actionBatchDelete()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\wamp\www\yorshop\backend\components\Controller.php(68): CFilter->filter(Object(CFilterChain))
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): Controller->filterChangePassword(Object(CFilterChain))
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('batchdelete')
+#18 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('product/batchde...')
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('product/batchde...')
+#20 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#22 {main}
+REQUEST_URI=/yorshop/backend/www/product/batchdelete/
+HTTP_REFERER=http://localhost/yorshop/backend/www/product/index/
+---
+Feb 15 15:54:54 [system.db.CDbCommand          ] : <E> CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`yorshop`.`order_product`, CONSTRAINT `order_product_ibfk_4` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE). The SQL statement executed was: DELETE FROM `product` WHERE `product`.`id`=3.
+Feb 15 15:54:54 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`yorshop`.`order_product`, CONSTRAINT `order_product_ibfk_4` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)' in C:\wamp\www\yorshop\common\lib\Yii\db\CDbCommand.php:357
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1745): CDbCommand->execute()
+#1 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1168): CActiveRecord->deleteByPk('3')
+#2 C:\wamp\www\yorshop\backend\components\CrudController.php(142): CActiveRecord->delete()
+#3 C:\wamp\www\yorshop\backend\controllers\ProductController.php(445): CrudController->batchDelete('Product', Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProductController->actionBatchDelete()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\wamp\www\yorshop\backend\components\Controller.php(68): CFilter->filter(Object(CFilterChain))
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): Controller->filterChangePassword(Object(CFilterChain))
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('batchdelete')
+#18 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('product/batchde...')
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('product/batchde...')
+#20 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#22 {main}
+REQUEST_URI=/yorshop/backend/www/product/batchdelete/
+HTTP_REFERER=http://localhost/yorshop/backend/www/product/index/
+---

@@ -1,0 +1,662 @@
+Feb 24 05:17:01 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "controllers/newsletterController".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('controllers/new...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('controllers/new...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/controllers/newsletterController
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/site/
+---
+Feb 24 05:19:16 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "controllers/newsletterController".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('controllers/new...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('controllers/new...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/controllers/newsletterController
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/site/
+---
+Feb 24 05:19:36 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "controllers/newsletterController".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('controllers/new...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('controllers/new...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/controllers/newsletterController
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/site/
+---
+Feb 24 05:20:12 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "controllers/newsletterController".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('controllers/new...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('controllers/new...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/controllers/newsletterController
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/site/
+---
+Feb 24 05:20:31 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "controllers/newsletterController".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('controllers/new...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('controllers/new...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/controllers/newsletterController
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/site/
+---
+Feb 24 05:20:48 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "controllers/newsletterController".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('controllers/new...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('controllers/new...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/controllers/newsletterController
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/site/
+---
+Feb 24 05:22:02 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "controllers/newsletterController".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('controllers/new...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('controllers/new...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/controllers/newsletterController
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/controllers/newsletterController
+---
+Feb 24 05:23:45 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "controllers/newsletterController".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('controllers/new...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('controllers/new...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/controllers/newsletterController
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/controllers/newsletterController
+---
+Feb 24 05:24:06 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "controllers/newsletterController".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('controllers/new...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('controllers/new...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/controllers/newsletterController
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/controllers/newsletterController
+---
+Feb 24 05:24:12 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "controllers/newsletterController".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('controllers/new...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('controllers/new...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/controllers/newsletterController
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/controllers/newsletterController
+---
+Feb 24 05:25:02 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "controllers/newsletterController".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('controllers/new...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('controllers/new...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/controllers/newsletterController
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/controllers/newsletterController
+---
+Feb 24 05:25:18 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "controllers/newsletterController".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('controllers/new...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('controllers/new...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/controllers/newsletterController
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/controllers/newsletterController
+---
+Feb 24 05:25:26 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "controllers/newsletterController".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('controllers/new...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('controllers/new...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/controllers/newsletterController
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/controllers/newsletterController
+---
+Feb 24 05:26:57 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "controllers/newsletterController".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('controllers/new...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('controllers/new...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/controllers/newsletterController
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/controllers/newsletterController
+---
+Feb 24 05:27:16 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "controllers/newsletterController".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('controllers/new...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('controllers/new...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/controllers/newsletterController
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/controllers/newsletterController
+---
+Feb 24 05:27:45 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "controllers/newsletterController".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('controllers/new...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('controllers/new...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/controllers/newsletterController
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/controllers/newsletterController
+---
+Feb 24 05:32:48 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "controllers/newsletterController".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('controllers/new...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('controllers/new...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/controllers/newsletterController
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/controllers/newsletterController
+---
+Feb 24 05:32:54 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "controllers/newsletterController".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('controllers/new...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('controllers/new...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/controllers/newsletterController
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/controllers/newsletterController
+---
+Feb 24 05:34:24 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "controllers/newsletterController".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('controllers/new...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('controllers/new...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/controllers/newsletterController
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/controllers/newsletterController
+---
+Feb 24 05:35:00 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "controllers/newsletterController".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('controllers/new...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('controllers/new...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/controllers/newsletterController
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/controllers/newsletterController
+---
+Feb 24 05:36:00 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "controllers/newsletterController".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('controllers/new...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('controllers/new...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/controllers/newsletterController
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/controllers/newsletterController
+---
+Feb 24 05:36:18 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "controllers/newsletterController".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('controllers/new...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('controllers/new...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/controllers/newsletterController
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/controllers/newsletterController
+---
+Feb 24 05:37:28 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "controllers/newsletterController".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('controllers/new...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('controllers/new...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/controllers/newsletterController
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/controllers/newsletterController
+---
+Feb 24 05:37:44 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "controllers/newsletterController".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('controllers/new...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('controllers/new...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/controllers/newsletterController
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/controllers/newsletterController
+---
+Feb 24 09:18:06 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "js/vendor/jquery-1.10.1.min.map".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('js/vendor/jquer...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('js/vendor/jquer...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/js/vendor/jquery-1.10.1.min.map
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/computer/?page=2
+---
+Feb 24 09:21:07 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "js/vendor/jquery-1.10.1.min.map".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('js/vendor/jquer...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('js/vendor/jquer...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/js/vendor/jquery-1.10.1.min.map
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/computer/?page=2
+---
+Feb 24 09:23:43 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "js/vendor/jquery-1.10.1.min.map".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('js/vendor/jquer...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('js/vendor/jquer...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/js/vendor/jquery-1.10.1.min.map
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/computer/?page=2
+---
+Feb 24 09:31:54 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "js/vendor/jquery-1.10.1.min.map".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('js/vendor/jquer...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('js/vendor/jquer...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/js/vendor/jquery-1.10.1.min.map
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/computer/?page=2
+---
+Feb 24 09:36:56 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "js/vendor/jquery-1.10.1.min.map".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('js/vendor/jquer...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('js/vendor/jquer...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/js/vendor/jquery-1.10.1.min.map
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/product/computer/laptops/dell-xps13r2-1400slv-13.3-inch-ultrabook-windows%C2%AE-7-pro/
+---
+Feb 24 09:41:22 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "js/vendor/jquery-1.10.1.min.map".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('js/vendor/jquer...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('js/vendor/jquer...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/js/vendor/jquery-1.10.1.min.map
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/product/computer/laptops/hp-touchsmart-4-1195ca-ultrabook/
+---
+Feb 24 09:42:07 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "js/vendor/jquery-1.10.1.min.map".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('js/vendor/jquer...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('js/vendor/jquer...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/js/vendor/jquery-1.10.1.min.map
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/computer/
+---
+Feb 24 09:42:13 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "js/vendor/jquery-1.10.1.min.map".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('js/vendor/jquer...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('js/vendor/jquer...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/js/vendor/jquery-1.10.1.min.map
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/electronics/
+---
+Feb 24 09:42:17 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "js/vendor/jquery-1.10.1.min.map".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('js/vendor/jquer...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('js/vendor/jquer...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/js/vendor/jquery-1.10.1.min.map
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/electronics/home-theatre/
+---
+Feb 24 09:42:21 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "js/vendor/jquery-1.10.1.min.map".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('js/vendor/jquer...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('js/vendor/jquer...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/js/vendor/jquery-1.10.1.min.map
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/product/electronics/home-theatre/haier-thermocool--haier-thermocool-flute-major-home-theatre/
+---
+Feb 24 09:43:04 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "js/vendor/jquery-1.10.1.min.map".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('js/vendor/jquer...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('js/vendor/jquer...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/js/vendor/jquery-1.10.1.min.map
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/computer/
+---
+Feb 24 09:43:25 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "js/vendor/jquery-1.10.1.min.map".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('js/vendor/jquer...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('js/vendor/jquer...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/js/vendor/jquery-1.10.1.min.map
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/product/computer/laptops/hp-touchsmart-4-1195ca-ultrabook/
+---
+Feb 24 09:46:01 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "js/vendor/jquery-1.10.1.min.map".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('js/vendor/jquer...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('js/vendor/jquer...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/js/vendor/jquery-1.10.1.min.map
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/computer/
+---
+Feb 24 09:46:04 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "js/vendor/jquery-1.10.1.min.map".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('js/vendor/jquer...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('js/vendor/jquer...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/js/vendor/jquery-1.10.1.min.map
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/product/electronics/home-theatre/haier-thermocool--haier-thermocool-flute-major-home-theatre/
+---
+Feb 24 09:55:44 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "js/vendor/jquery-1.10.1.min.map".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('js/vendor/jquer...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('js/vendor/jquer...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/js/vendor/jquery-1.10.1.min.map
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/product/electronics/home-theatre/haier-thermocool--haier-thermocool-flute-major-home-theatre/
+---
+Feb 24 13:00:05 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "js/vendor/jquery-1.10.1.min.map".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('js/vendor/jquer...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('js/vendor/jquer...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/js/vendor/jquery-1.10.1.min.map
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/computer/computer/
+---
+Feb 24 13:01:38 [system.db.CDbCommand          ] : <E> CDbCommand::fetchColumn() failed: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT DISTINCT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  WHERE (((categoryDescriptions.link = :link OR d2.link = :link2) AND (t.price <= :maxValue)) AND (t.price >= :minValue)) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en'). Bound with :link='computer', :link2='computer'.
+in C:\xampp\htdocs\SITE\yorshop\frontend\controllers\CategoryController.php (165)
+in C:\xampp\htdocs\SITE\yorshop\frontend\controllers\CategoryController.php (82)
+in C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php (33)
+Feb 24 13:01:39 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT DISTINCT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  WHERE (((categoryDescriptions.link = :link OR d2.link = :link2) AND (t.price <= :maxValue)) AND (t.price >= :minValue)) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en'). Bound with :link='computer', :link2='computer'' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(718): CDbCommand->queryScalar()
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1550): CActiveFinder->count(Object(CDbCriteria))
+#4 C:\xampp\htdocs\SITE\yorshop\frontend\controllers\CategoryController.php(165): CActiveRecord->count(Object(CDbCriteria))
+#5 C:\xampp\htdocs\SITE\yorshop\frontend\controllers\CategoryController.php(82): CategoryController->paginate('computer')
+#6 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#7 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#11 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#12 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#13 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/category/computer/computer/?minValue=93300&maxValue=116800
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/computer/computer/
+---
+Feb 24 13:02:51 [system.db.CDbCommand          ] : <E> CDbCommand::fetchColumn() failed: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT DISTINCT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  WHERE (((categoryDescriptions.link = :link OR d2.link = :link2) AND (t.price <= :maxValue)) AND (t.price >= :minValue)) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en'). Bound with :link='computer', :link2='computer'.
+in C:\xampp\htdocs\SITE\yorshop\frontend\controllers\CategoryController.php (165)
+in C:\xampp\htdocs\SITE\yorshop\frontend\controllers\CategoryController.php (82)
+in C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php (33)
+Feb 24 13:02:51 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT DISTINCT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  WHERE (((categoryDescriptions.link = :link OR d2.link = :link2) AND (t.price <= :maxValue)) AND (t.price >= :minValue)) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en'). Bound with :link='computer', :link2='computer'' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(718): CDbCommand->queryScalar()
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1550): CActiveFinder->count(Object(CDbCriteria))
+#4 C:\xampp\htdocs\SITE\yorshop\frontend\controllers\CategoryController.php(165): CActiveRecord->count(Object(CDbCriteria))
+#5 C:\xampp\htdocs\SITE\yorshop\frontend\controllers\CategoryController.php(82): CategoryController->paginate('computer')
+#6 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#7 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#11 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#12 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#13 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/category/computer/computer/?minValue=87400&maxValue=200000
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/computer/computer/
+---
+Feb 24 13:05:07 [php                           ] : <E> Undefined index: priceSearchSubmit (C:\xampp\htdocs\SITE\yorshop\frontend\widgets\views\category_navigation.php:75)
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\widgets\CWidget.php(243): CategoryNavigation->renderFile()
+#1 C:\xampp\htdocs\SITE\yorshop\frontend\widgets\CategoryNavigation.php(32): CategoryNavigation->render()
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(173): CategoryNavigation->run()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\views\category\_default.php(2): CategoryController->widget()
+#4 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#5 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(95): CategoryController->renderInternal()
+#6 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(869): CategoryController->renderFile()
+#7 C:\xampp\htdocs\SITE\yorshop\frontend\views\category\default.php(1): CategoryController->renderPartial()
+#8 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#9 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(95): CategoryController->renderInternal()
+#10 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(869): CategoryController->renderFile()
+#11 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(782): CategoryController->renderPartial()
+#12 C:\xampp\htdocs\SITE\yorshop\frontend\controllers\CategoryController.php(176): CategoryController->render()
+#13 C:\xampp\htdocs\SITE\yorshop\frontend\controllers\CategoryController.php(82): CategoryController->paginate()
+#14 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#15 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#16 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(286): CategoryController->runAction()
+#17 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(265): CategoryController->runActionWithFilters()
+#18 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(282): CategoryController->run()
+#19 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#20 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#21 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#22 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/SITE/yorshop/frontend/www/category/computer/computer/
+in C:\xampp\htdocs\SITE\yorshop\frontend\widgets\views\category_navigation.php (75)
+in C:\xampp\htdocs\SITE\yorshop\frontend\widgets\CategoryNavigation.php (32)
+in C:\xampp\htdocs\SITE\yorshop\frontend\views\category\_default.php (2)
+Feb 24 13:05:21 [php                           ] : <E> Undefined index: priceSearchSubmit (C:\xampp\htdocs\SITE\yorshop\frontend\widgets\views\category_navigation.php:75)
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\widgets\CWidget.php(243): CategoryNavigation->renderFile()
+#1 C:\xampp\htdocs\SITE\yorshop\frontend\widgets\CategoryNavigation.php(32): CategoryNavigation->render()
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(173): CategoryNavigation->run()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\views\category\_default.php(2): CategoryController->widget()
+#4 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#5 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(95): CategoryController->renderInternal()
+#6 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(869): CategoryController->renderFile()
+#7 C:\xampp\htdocs\SITE\yorshop\frontend\views\category\default.php(1): CategoryController->renderPartial()
+#8 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#9 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(95): CategoryController->renderInternal()
+#10 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(869): CategoryController->renderFile()
+#11 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(782): CategoryController->renderPartial()
+#12 C:\xampp\htdocs\SITE\yorshop\frontend\controllers\CategoryController.php(176): CategoryController->render()
+#13 C:\xampp\htdocs\SITE\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate()
+#14 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#15 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#16 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(286): CategoryController->runAction()
+#17 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(265): CategoryController->runActionWithFilters()
+#18 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(282): CategoryController->run()
+#19 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#20 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#21 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#22 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/SITE/yorshop/frontend/www/category/computer/
+in C:\xampp\htdocs\SITE\yorshop\frontend\widgets\views\category_navigation.php (75)
+in C:\xampp\htdocs\SITE\yorshop\frontend\widgets\CategoryNavigation.php (32)
+in C:\xampp\htdocs\SITE\yorshop\frontend\views\category\_default.php (2)
+Feb 24 13:05:29 [php                           ] : <E> Undefined index: priceSearchSubmit (C:\xampp\htdocs\SITE\yorshop\frontend\widgets\views\category_navigation.php:75)
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\widgets\CWidget.php(243): CategoryNavigation->renderFile()
+#1 C:\xampp\htdocs\SITE\yorshop\frontend\widgets\CategoryNavigation.php(32): CategoryNavigation->render()
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(173): CategoryNavigation->run()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\views\category\_default.php(2): CategoryController->widget()
+#4 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#5 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(95): CategoryController->renderInternal()
+#6 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(869): CategoryController->renderFile()
+#7 C:\xampp\htdocs\SITE\yorshop\frontend\views\category\default.php(1): CategoryController->renderPartial()
+#8 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#9 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(95): CategoryController->renderInternal()
+#10 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(869): CategoryController->renderFile()
+#11 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(782): CategoryController->renderPartial()
+#12 C:\xampp\htdocs\SITE\yorshop\frontend\controllers\CategoryController.php(176): CategoryController->render()
+#13 C:\xampp\htdocs\SITE\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate()
+#14 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#15 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#16 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(286): CategoryController->runAction()
+#17 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(265): CategoryController->runActionWithFilters()
+#18 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(282): CategoryController->run()
+#19 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#20 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#21 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#22 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/SITE/yorshop/frontend/www/category/computer/
+in C:\xampp\htdocs\SITE\yorshop\frontend\widgets\views\category_navigation.php (75)
+in C:\xampp\htdocs\SITE\yorshop\frontend\widgets\CategoryNavigation.php (32)
+in C:\xampp\htdocs\SITE\yorshop\frontend\views\category\_default.php (2)
+Feb 24 13:05:53 [system.db.CDbCommand          ] : <E> CDbCommand::fetchColumn() failed: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT DISTINCT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  WHERE (((categoryDescriptions.link = :link OR d2.link = :link2) AND (t.price <= :maxValue)) AND (t.price >= :minValue)) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en'). Bound with :link='computer', :link2='computer'.
+in C:\xampp\htdocs\SITE\yorshop\frontend\controllers\CategoryController.php (165)
+in C:\xampp\htdocs\SITE\yorshop\frontend\controllers\CategoryController.php (84)
+in C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php (33)
+Feb 24 13:05:53 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT DISTINCT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  WHERE (((categoryDescriptions.link = :link OR d2.link = :link2) AND (t.price <= :maxValue)) AND (t.price >= :minValue)) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en'). Bound with :link='computer', :link2='computer'' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(718): CDbCommand->queryScalar()
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1550): CActiveFinder->count(Object(CDbCriteria))
+#4 C:\xampp\htdocs\SITE\yorshop\frontend\controllers\CategoryController.php(165): CActiveRecord->count(Object(CDbCriteria))
+#5 C:\xampp\htdocs\SITE\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate('computer')
+#6 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#7 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#11 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#12 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#13 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/category/computer/?minValue=29400&maxValue=110900&priceSearchSubmit=Submit
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/computer/
+---
+Feb 24 13:07:05 [system.db.CDbCommand          ] : <E> CDbCommand::fetchColumn() failed: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT DISTINCT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  WHERE (((categoryDescriptions.link = :link OR d2.link = :link2) AND (t.price <= :maxValue)) AND (t.price >= :minValue)) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en'). Bound with :link='computer', :link2='computer'.
+in C:\xampp\htdocs\SITE\yorshop\frontend\controllers\CategoryController.php (165)
+in C:\xampp\htdocs\SITE\yorshop\frontend\controllers\CategoryController.php (84)
+in C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php (33)
+Feb 24 13:07:05 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT DISTINCT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  WHERE (((categoryDescriptions.link = :link OR d2.link = :link2) AND (t.price <= :maxValue)) AND (t.price >= :minValue)) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en'). Bound with :link='computer', :link2='computer'' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(718): CDbCommand->queryScalar()
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1550): CActiveFinder->count(Object(CDbCriteria))
+#4 C:\xampp\htdocs\SITE\yorshop\frontend\controllers\CategoryController.php(165): CActiveRecord->count(Object(CDbCriteria))
+#5 C:\xampp\htdocs\SITE\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate('computer')
+#6 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#7 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#11 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#12 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#13 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/category/computer/?minValue=29400&maxValue=110900&priceSearchSubmit=Submit
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/computer/
+---
+Feb 24 13:07:13 [system.db.CDbCommand          ] : <E> CDbCommand::fetchColumn() failed: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT DISTINCT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  WHERE (((categoryDescriptions.link = :link OR d2.link = :link2) AND (t.price <= :maxValue)) AND (t.price >= :minValue)) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en'). Bound with :link='computer', :link2='computer'.
+in C:\xampp\htdocs\SITE\yorshop\frontend\controllers\CategoryController.php (165)
+in C:\xampp\htdocs\SITE\yorshop\frontend\controllers\CategoryController.php (84)
+in C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php (33)
+Feb 24 13:07:13 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT DISTINCT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  WHERE (((categoryDescriptions.link = :link OR d2.link = :link2) AND (t.price <= :maxValue)) AND (t.price >= :minValue)) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en'). Bound with :link='computer', :link2='computer'' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(718): CDbCommand->queryScalar()
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1550): CActiveFinder->count(Object(CDbCriteria))
+#4 C:\xampp\htdocs\SITE\yorshop\frontend\controllers\CategoryController.php(165): CActiveRecord->count(Object(CDbCriteria))
+#5 C:\xampp\htdocs\SITE\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate('computer')
+#6 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#7 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#11 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#12 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#13 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/category/computer/?minValue=29400&maxValue=110900&priceSearchSubmit=Submit
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/computer/
+---
+Feb 24 13:07:43 [system.db.CDbCommand          ] : <E> CDbCommand::fetchColumn() failed: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT DISTINCT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  WHERE (((categoryDescriptions.link = :link OR d2.link = :link2) AND (t.price <= :maxValue)) AND (t.price >= :minValue)) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en'). Bound with :link='computer', :link2='computer'.
+in C:\xampp\htdocs\SITE\yorshop\frontend\controllers\CategoryController.php (165)
+in C:\xampp\htdocs\SITE\yorshop\frontend\controllers\CategoryController.php (84)
+in C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php (33)
+Feb 24 13:07:43 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT DISTINCT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  WHERE (((categoryDescriptions.link = :link OR d2.link = :link2) AND (t.price <= :maxValue)) AND (t.price >= :minValue)) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en'). Bound with :link='computer', :link2='computer'' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(718): CDbCommand->queryScalar()
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1550): CActiveFinder->count(Object(CDbCriteria))
+#4 C:\xampp\htdocs\SITE\yorshop\frontend\controllers\CategoryController.php(165): CActiveRecord->count(Object(CDbCriteria))
+#5 C:\xampp\htdocs\SITE\yorshop\frontend\controllers\CategoryController.php(84): CategoryController->paginate('computer')
+#6 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#7 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#11 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#12 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#13 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/category/computer/?minValue=29400&maxValue=110900&priceSearchSubmit=Submit
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/computer/
+---
+Feb 24 13:09:31 [system.db.CDbCommand          ] : <E> CDbCommand::fetchColumn() failed: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT DISTINCT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  WHERE (((categoryDescriptions.link = :link OR d2.link = :link2) AND (t.price <= :maxValue)) AND (t.price >= :minValue)) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en'). Bound with :link='desktops', :link2='desktops'.
+in C:\xampp\htdocs\SITE\yorshop\frontend\controllers\CategoryController.php (165)
+in C:\xampp\htdocs\SITE\yorshop\frontend\controllers\CategoryController.php (82)
+in C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php (33)
+Feb 24 13:09:31 [exception.CDbException        ] : <E> exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT DISTINCT COUNT(DISTINCT `t`.`id`) FROM `product` `t`  LEFT OUTER JOIN `product_category` `categories_categories` ON (`t`.`id`=`categories_categories`.`product_id`) LEFT OUTER JOIN `category` `categories` ON (`categories`.`id`=`categories_categories`.`category_id`)  LEFT OUTER JOIN `category_description` `categoryDescriptions` ON (`categoryDescriptions`.`category_id`=`categories`.`id`)  LEFT OUTER JOIN `category` `d1` ON (`categories`.`parent_id`=`d1`.`id`)  LEFT OUTER JOIN `category_description` `d2` ON (`d2`.`category_id`=`d1`.`id`)  WHERE (((categoryDescriptions.link = :link OR d2.link = :link2) AND (t.price <= :maxValue)) AND (t.price >= :minValue)) AND (categoryDescriptions.locale_code = 'en') AND (categoryDescriptions.locale_code = 'en'). Bound with :link='desktops', :link2='desktops'' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\CDbCommand.php:541
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\CDbCommand.php(432): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(718): CDbCommand->queryScalar()
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\ar\CActiveFinder.php(151): CJoinElement->count(Object(CDbCriteria))
+#3 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(1550): CActiveFinder->count(Object(CDbCriteria))
+#4 C:\xampp\htdocs\SITE\yorshop\frontend\controllers\CategoryController.php(165): CActiveRecord->count(Object(CDbCriteria))
+#5 C:\xampp\htdocs\SITE\yorshop\frontend\controllers\CategoryController.php(82): CategoryController->paginate('desktops')
+#6 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#7 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#11 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#12 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#13 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/category/computer/desktops/?minValue=112600&maxValue=137000&priceSearchSubmit=Submit
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/computer/desktops/
+---

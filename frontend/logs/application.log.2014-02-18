@@ -1,0 +1,580 @@
+Feb 18 08:56:54 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/computer/
+---
+Feb 18 08:56:54 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/111/a8db4217b4491ef42e4fd9ca0ce372e9.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/111/a8d...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/111/a8d...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/111/a8db4217b4491ef42e4fd9ca0ce372e9.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/computer/
+---
+Feb 18 08:58:44 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/computer/
+---
+Feb 18 09:00:14 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/electronics/computer/
+---
+Feb 18 09:00:14 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/2/ff955ac24c1b30fe30692b1a42f7a275.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/2/ff955...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/2/ff955...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/uploads/2/ff955ac24c1b30fe30692b1a42f7a275.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/electronics/computer/
+---
+Feb 18 09:01:24 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/yorshop/frontend/www/category/electronics/computer/
+---
+Feb 18 09:31:28 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/electronics/
+---
+Feb 18 09:51:55 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/computer/
+---
+Feb 18 09:52:00 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/computer/laptops/
+---
+Feb 18 09:52:22 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/2/ee29fedd134fc8f1e109e8734355e07c.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/2/ee29f...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/2/ee29f...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/uploads/2/ee29fedd134fc8f1e109e8734355e07c.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/computer/laptops/
+---
+Feb 18 09:52:22 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/computer/laptops/
+---
+Feb 18 09:53:50 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/computer/laptops/
+---
+Feb 18 09:56:37 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/computer/laptops/
+---
+Feb 18 10:02:57 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/6/c5ea36a3264329c49a79fb97c6b567c1.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/6/c5ea3...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/6/c5ea3...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/uploads/6/c5ea36a3264329c49a79fb97c6b567c1.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/computer/laptops/
+---
+Feb 18 10:02:57 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/7/c226523d71d917ace3f845b52e94f150.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/7/c2265...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/7/c2265...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/uploads/7/c226523d71d917ace3f845b52e94f150.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/computer/laptops/
+---
+Feb 18 10:02:58 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/computer/laptops/
+---
+Feb 18 10:03:03 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/11/cd5dac226ac985cd9a6b0cf2e38db78b.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/11/cd5d...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/11/cd5d...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/uploads/11/cd5dac226ac985cd9a6b0cf2e38db78b.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/food-drinks/
+---
+Feb 18 10:03:04 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/9/2082fe6e2f638a7aba42ef4a0dc8193f.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/9/2082f...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/9/2082f...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/uploads/9/2082fe6e2f638a7aba42ef4a0dc8193f.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/food-drinks/
+---
+Feb 18 10:03:04 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/10/0a37fc3f609b2ddff71d3f9d116bc375.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/10/0a37...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/10/0a37...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/uploads/10/0a37fc3f609b2ddff71d3f9d116bc375.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/food-drinks/
+---
+Feb 18 10:03:04 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/8/059a1c2d36ac4f8c61a1725133ffc7b6.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/8/059a1...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/8/059a1...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/uploads/8/059a1c2d36ac4f8c61a1725133ffc7b6.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/food-drinks/
+---
+Feb 18 10:03:04 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/food-drinks/
+---
+Feb 18 10:04:39 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/food-drinks/
+---
+Feb 18 10:08:29 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/food-drinks/
+---
+Feb 18 10:15:01 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/phones/
+---
+Feb 18 10:15:06 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/phones/androids-os-phones/
+---
+Feb 18 10:18:27 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/26/2fceeb20792c62dd6f235794094be377.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/26/2fce...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/26/2fce...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/uploads/26/2fceeb20792c62dd6f235794094be377.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/phones/androids-os-phones/
+---
+Feb 18 10:18:27 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/23/6339ce9f6ddaa9bd10739858f242a425.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/23/6339...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/23/6339...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/uploads/23/6339ce9f6ddaa9bd10739858f242a425.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/phones/androids-os-phones/
+---
+Feb 18 10:18:27 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/24/16d3750af96bd3d2c688518d1f63abf5.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/24/16d3...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/24/16d3...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/uploads/24/16d3750af96bd3d2c688518d1f63abf5.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/phones/androids-os-phones/
+---
+Feb 18 10:18:28 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/22/9ace0d07390582ba98bf3662e53622be.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/22/9ace...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/22/9ace...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/uploads/22/9ace0d07390582ba98bf3662e53622be.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/phones/androids-os-phones/
+---
+Feb 18 10:18:28 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/phones/androids-os-phones/
+---
+Feb 18 10:18:48 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/phones/androids-os-phones/
+---
+Feb 18 10:24:14 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/phones/androids-os-phones/?page=2
+---
+Feb 18 10:25:55 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/phones/androids-os-phones/?page=2
+---
+Feb 18 10:26:20 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/phones/androids-os-phones/?page=2
+---
+Feb 18 10:26:28 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/phones/androids-os-phones/?page=2
+---
+Feb 18 10:27:10 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/phones/androids-os-phones/?page=2
+---
+Feb 18 10:27:59 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/phones/androids-os-phones/?page=2
+---
+Feb 18 10:28:13 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/phones/androids-os-phones/?page=2
+---
+Feb 18 10:28:20 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/phones/androids-os-phones/?page=2
+---
+Feb 18 10:30:22 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/phones/androids-os-phones/?page=2
+---
+Feb 18 10:30:36 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/phones/androids-os-phones/?page=2
+---
+Feb 18 10:32:11 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/phones/androids-os-phones/?page=2
+---
+Feb 18 10:32:16 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/37/d4467c48845a6bf15aeb92529fbf18f7.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/37/d446...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/37/d446...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/uploads/37/d4467c48845a6bf15aeb92529fbf18f7.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/baby-kids-toys/
+---
+Feb 18 10:32:16 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/baby-kids-toys/
+---
+Feb 18 10:32:29 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/baby-kids-toys/
+---
+Feb 18 10:33:43 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/baby-kids-toys/
+---
+Feb 18 10:35:37 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/baby-kids-toys/
+---
+Feb 18 10:41:22 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/phones/?page=2
+---
+Feb 18 10:41:30 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/phones/blackberry-phones/
+---
+Feb 18 10:48:05 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/electronics/
+---
+Feb 18 10:48:09 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/electronics/cameras/
+---
+Feb 18 10:48:19 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/electronics/
+---
+Feb 18 10:48:23 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/electronics/cameras/
+---
+Feb 18 10:52:03 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/electronics/cameras/
+---
+Feb 18 13:14:46 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/phones/mobile-batteries/
+---
+Feb 18 13:30:38 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/phones/mobile-batteries/
+---
+Feb 18 13:30:47 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "no-image.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('no-image.jpg')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('no-image.jpg')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/no-image.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/electronics/
+---
+Feb 18 16:53:38 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/167/d823e974a4de077950d116a12e570b3a.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/167/d82...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/167/d82...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/uploads/167/d823e974a4de077950d116a12e570b3a.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/baby-kids-toys/children-bags/
+---

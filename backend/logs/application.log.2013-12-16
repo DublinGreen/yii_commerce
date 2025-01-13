@@ -1,0 +1,931 @@
+Dec 16 22:41:13 [order.actions.create          ] : <E> OrderCreateActionvaliid: 1--array
+(
+    0 => array
+    (
+        0 => ProductOption#1
+        (
+            [CActiveRecord:_md] => CActiveRecordMetaData#2
+            (
+                [tableSchema] => CMysqlTableSchema#3
+                (
+                    [schemaName] => null
+                    [name] => 'product_option'
+                    [rawName] => '`product_option`'
+                    [primaryKey] => 'id'
+                    [sequenceName] => ''
+                    [foreignKeys] => array
+                    (
+                        'product_id' => array
+                        (
+                            0 => 'product'
+                            1 => 'id'
+                        )
+                        'option_id' => array
+                        (
+                            0 => 'option'
+                            1 => 'id'
+                        )
+                    )
+                    [columns] => array
+                    (
+                        'id' => CMysqlColumnSchema#4
+                        (
+                            [name] => 'id'
+                            [rawName] => '`id`'
+                            [allowNull] => false
+                            [dbType] => 'int(11)'
+                            [type] => 'integer'
+                            [defaultValue] => null
+                            [size] => 11
+                            [precision] => 11
+                            [scale] => null
+                            [isPrimaryKey] => true
+                            [isForeignKey] => false
+                            [autoIncrement] => true
+                            [comment] => ''
+                            [CComponent:_e] => null
+                            [CComponent:_m] => null
+                        )
+                        'product_id' => CMysqlColumnSchema#5
+                        (
+                            [name] => 'product_id'
+                            [rawName] => '`product_id`'
+                            [allowNull] => false
+                            [dbType] => 'int(11)'
+                            [type] => 'integer'
+                            [defaultValue] => null
+                            [size] => 11
+                            [precision] => 11
+                            [scale] => null
+                            [isPrimaryKey] => false
+                            [isForeignKey] => true
+                            [autoIncrement] => false
+                            [comment] => ''
+                            [CComponent:_e] => null
+                            [CComponent:_m] => null
+                        )
+                        'option_id' => CMysqlColumnSchema#6
+                        (
+                            [name] => 'option_id'
+                            [rawName] => '`option_id`'
+                            [allowNull] => false
+                            [dbType] => 'int(11)'
+                            [type] => 'integer'
+                            [defaultValue] => null
+                            [size] => 11
+                            [precision] => 11
+                            [scale] => null
+                            [isPrimaryKey] => false
+                            [isForeignKey] => true
+                            [autoIncrement] => false
+                            [comment] => ''
+                            [CComponent:_e] => null
+                            [CComponent:_m] => null
+                        )
+                        'option_value' => CMysqlColumnSchema#7
+                        (
+                            [name] => 'option_value'
+                            [rawName] => '`option_value`'
+                            [allowNull] => false
+                            [dbType] => 'text'
+                            [type] => 'string'
+                            [defaultValue] => null
+                            [size] => null
+                            [precision] => null
+                            [scale] => null
+                            [isPrimaryKey] => false
+                            [isForeignKey] => false
+                            [autoIncrement] => false
+                            [comment] => ''
+                            [CComponent:_e] => null
+                            [CComponent:_m] => null
+                        )
+                        'required' => CMysqlColumnSchema#8
+                        (
+                            [name] => 'required'
+                            [rawName] => '`required`'
+                            [allowNull] => false
+                            [dbType] => 'tinyint(1)'
+                            [type] => 'integer'
+                            [defaultValue] => null
+                            [size] => 1
+                            [precision] => 1
+                            [scale] => null
+                            [isPrimaryKey] => false
+                            [isForeignKey] => false
+                            [autoIncrement] => false
+                            [comment] => ''
+                            [CComponent:_e] => null
+                            [CComponent:_m] => null
+                        )
+                    )
+                    [CComponent:_e] => null
+                    [CComponent:_m] => null
+                )
+                [columns] => array
+                (
+                    'id' => CMysqlColumnSchema#4(...)
+                    'product_id' => CMysqlColumnSchema#5(...)
+                    'option_id' => CMysqlColumnSchema#6(...)
+                    'option_value' => CMysqlColumnSchema#7(...)
+                    'required' => CMysqlColumnSchema#8(...)
+                )
+                [relations] => array
+                (
+                    'product' => CBelongsToRelation#9
+                    (
+                        [joinType] => 'LEFT OUTER JOIN'
+                        [on] => ''
+                        [alias] => null
+                        [with] => array()
+                        [together] => null
+                        [scopes] => null
+                        [name] => 'product'
+                        [className] => 'Product'
+                        [foreignKey] => 'product_id'
+                        [select] => '*'
+                        [condition] => ''
+                        [params] => array()
+                        [group] => ''
+                        [join] => ''
+                        [having] => ''
+                        [order] => ''
+                        [CComponent:_e] => null
+                        [CComponent:_m] => null
+                    )
+                    'option' => CBelongsToRelation#10
+                    (
+                        [joinType] => 'LEFT OUTER JOIN'
+                        [on] => ''
+                        [alias] => null
+                        [with] => array()
+                        [together] => null
+                        [scopes] => null
+                        [name] => 'option'
+                        [className] => 'Option'
+                        [foreignKey] => 'option_id'
+                        [select] => '*'
+                        [condition] => ''
+                        [params] => array()
+                        [group] => ''
+                        [join] => ''
+                        [having] => ''
+                        [order] => ''
+                        [CComponent:_e] => null
+                        [CComponent:_m] => null
+                    )
+                    'productOptionValues' => CHasManyRelation#11
+                    (
+                        [limit] => -1
+                        [offset] => -1
+                        [index] => null
+                        [through] => null
+                        [joinType] => 'LEFT OUTER JOIN'
+                        [on] => ''
+                        [alias] => null
+                        [with] => array()
+                        [together] => null
+                        [scopes] => null
+                        [name] => 'productOptionValues'
+                        [className] => 'ProductOptionValue'
+                        [foreignKey] => 'product_option_id'
+                        [select] => '*'
+                        [condition] => ''
+                        [params] => array()
+                        [group] => ''
+                        [join] => ''
+                        [having] => ''
+                        [order] => ''
+                        [CComponent:_e] => null
+                        [CComponent:_m] => null
+                    )
+                )
+                [attributeDefaults] => array()
+                [CActiveRecordMetaData:_model] => ProductOption#12
+                (
+                    [CActiveRecord:_md] => CActiveRecordMetaData#2(...)
+                    [CActiveRecord:_new] => false
+                    [CActiveRecord:_attributes] => array()
+                    [CActiveRecord:_related] => array()
+                    [CActiveRecord:_c] => null
+                    [CActiveRecord:_pk] => null
+                    [CActiveRecord:_alias] => 't'
+                    [CModel:_errors] => array()
+                    [CModel:_validators] => null
+                    [CModel:_scenario] => ''
+                    [CComponent:_e] => null
+                    [CComponent:_m] => null
+                )
+            )
+            [CActiveRecord:_new] => false
+            [CActiveRecord:_attributes] => array
+            (
+                'id' => '32'
+                'product_id' => '1'
+                'option_id' => '3'
+                'option_value' => 'hjj'
+                'required' => '0'
+            )
+            [CActiveRecord:_related] => array()
+            [CActiveRecord:_c] => null
+            [CActiveRecord:_pk] => '32'
+            [CActiveRecord:_alias] => 't'
+            [CModel:_errors] => array()
+            [CModel:_validators] => null
+            [CModel:_scenario] => 'update'
+            [CComponent:_e] => null
+            [CComponent:_m] => null
+        )
+        1 => array()
+    )
+)
+Dec 16 22:42:15 [order.actions.create          ] : <E> OrderCreateActionvaliid: 2--array
+(
+    0 => array
+    (
+        0 => ProductOption#1
+        (
+            [CActiveRecord:_md] => CActiveRecordMetaData#2
+            (
+                [tableSchema] => CMysqlTableSchema#3
+                (
+                    [schemaName] => null
+                    [name] => 'product_option'
+                    [rawName] => '`product_option`'
+                    [primaryKey] => 'id'
+                    [sequenceName] => ''
+                    [foreignKeys] => array
+                    (
+                        'product_id' => array
+                        (
+                            0 => 'product'
+                            1 => 'id'
+                        )
+                        'option_id' => array
+                        (
+                            0 => 'option'
+                            1 => 'id'
+                        )
+                    )
+                    [columns] => array
+                    (
+                        'id' => CMysqlColumnSchema#4
+                        (
+                            [name] => 'id'
+                            [rawName] => '`id`'
+                            [allowNull] => false
+                            [dbType] => 'int(11)'
+                            [type] => 'integer'
+                            [defaultValue] => null
+                            [size] => 11
+                            [precision] => 11
+                            [scale] => null
+                            [isPrimaryKey] => true
+                            [isForeignKey] => false
+                            [autoIncrement] => true
+                            [comment] => ''
+                            [CComponent:_e] => null
+                            [CComponent:_m] => null
+                        )
+                        'product_id' => CMysqlColumnSchema#5
+                        (
+                            [name] => 'product_id'
+                            [rawName] => '`product_id`'
+                            [allowNull] => false
+                            [dbType] => 'int(11)'
+                            [type] => 'integer'
+                            [defaultValue] => null
+                            [size] => 11
+                            [precision] => 11
+                            [scale] => null
+                            [isPrimaryKey] => false
+                            [isForeignKey] => true
+                            [autoIncrement] => false
+                            [comment] => ''
+                            [CComponent:_e] => null
+                            [CComponent:_m] => null
+                        )
+                        'option_id' => CMysqlColumnSchema#6
+                        (
+                            [name] => 'option_id'
+                            [rawName] => '`option_id`'
+                            [allowNull] => false
+                            [dbType] => 'int(11)'
+                            [type] => 'integer'
+                            [defaultValue] => null
+                            [size] => 11
+                            [precision] => 11
+                            [scale] => null
+                            [isPrimaryKey] => false
+                            [isForeignKey] => true
+                            [autoIncrement] => false
+                            [comment] => ''
+                            [CComponent:_e] => null
+                            [CComponent:_m] => null
+                        )
+                        'option_value' => CMysqlColumnSchema#7
+                        (
+                            [name] => 'option_value'
+                            [rawName] => '`option_value`'
+                            [allowNull] => false
+                            [dbType] => 'text'
+                            [type] => 'string'
+                            [defaultValue] => null
+                            [size] => null
+                            [precision] => null
+                            [scale] => null
+                            [isPrimaryKey] => false
+                            [isForeignKey] => false
+                            [autoIncrement] => false
+                            [comment] => ''
+                            [CComponent:_e] => null
+                            [CComponent:_m] => null
+                        )
+                        'required' => CMysqlColumnSchema#8
+                        (
+                            [name] => 'required'
+                            [rawName] => '`required`'
+                            [allowNull] => false
+                            [dbType] => 'tinyint(1)'
+                            [type] => 'integer'
+                            [defaultValue] => null
+                            [size] => 1
+                            [precision] => 1
+                            [scale] => null
+                            [isPrimaryKey] => false
+                            [isForeignKey] => false
+                            [autoIncrement] => false
+                            [comment] => ''
+                            [CComponent:_e] => null
+                            [CComponent:_m] => null
+                        )
+                    )
+                    [CComponent:_e] => null
+                    [CComponent:_m] => null
+                )
+                [columns] => array
+                (
+                    'id' => CMysqlColumnSchema#4(...)
+                    'product_id' => CMysqlColumnSchema#5(...)
+                    'option_id' => CMysqlColumnSchema#6(...)
+                    'option_value' => CMysqlColumnSchema#7(...)
+                    'required' => CMysqlColumnSchema#8(...)
+                )
+                [relations] => array
+                (
+                    'product' => CBelongsToRelation#9
+                    (
+                        [joinType] => 'LEFT OUTER JOIN'
+                        [on] => ''
+                        [alias] => null
+                        [with] => array()
+                        [together] => null
+                        [scopes] => null
+                        [name] => 'product'
+                        [className] => 'Product'
+                        [foreignKey] => 'product_id'
+                        [select] => '*'
+                        [condition] => ''
+                        [params] => array()
+                        [group] => ''
+                        [join] => ''
+                        [having] => ''
+                        [order] => ''
+                        [CComponent:_e] => null
+                        [CComponent:_m] => null
+                    )
+                    'option' => CBelongsToRelation#10
+                    (
+                        [joinType] => 'LEFT OUTER JOIN'
+                        [on] => ''
+                        [alias] => null
+                        [with] => array()
+                        [together] => null
+                        [scopes] => null
+                        [name] => 'option'
+                        [className] => 'Option'
+                        [foreignKey] => 'option_id'
+                        [select] => '*'
+                        [condition] => ''
+                        [params] => array()
+                        [group] => ''
+                        [join] => ''
+                        [having] => ''
+                        [order] => ''
+                        [CComponent:_e] => null
+                        [CComponent:_m] => null
+                    )
+                    'productOptionValues' => CHasManyRelation#11
+                    (
+                        [limit] => -1
+                        [offset] => -1
+                        [index] => null
+                        [through] => null
+                        [joinType] => 'LEFT OUTER JOIN'
+                        [on] => ''
+                        [alias] => null
+                        [with] => array()
+                        [together] => null
+                        [scopes] => null
+                        [name] => 'productOptionValues'
+                        [className] => 'ProductOptionValue'
+                        [foreignKey] => 'product_option_id'
+                        [select] => '*'
+                        [condition] => ''
+                        [params] => array()
+                        [group] => ''
+                        [join] => ''
+                        [having] => ''
+                        [order] => ''
+                        [CComponent:_e] => null
+                        [CComponent:_m] => null
+                    )
+                )
+                [attributeDefaults] => array()
+                [CActiveRecordMetaData:_model] => ProductOption#12
+                (
+                    [CActiveRecord:_md] => CActiveRecordMetaData#2(...)
+                    [CActiveRecord:_new] => false
+                    [CActiveRecord:_attributes] => array()
+                    [CActiveRecord:_related] => array()
+                    [CActiveRecord:_c] => null
+                    [CActiveRecord:_pk] => null
+                    [CActiveRecord:_alias] => 't'
+                    [CModel:_errors] => array()
+                    [CModel:_validators] => null
+                    [CModel:_scenario] => ''
+                    [CComponent:_e] => null
+                    [CComponent:_m] => null
+                )
+            )
+            [CActiveRecord:_new] => false
+            [CActiveRecord:_attributes] => array
+            (
+                'id' => '24'
+                'product_id' => '2'
+                'option_id' => '3'
+                'option_value' => 'jkkj'
+                'required' => '0'
+            )
+            [CActiveRecord:_related] => array()
+            [CActiveRecord:_c] => null
+            [CActiveRecord:_pk] => '24'
+            [CActiveRecord:_alias] => 't'
+            [CModel:_errors] => array()
+            [CModel:_validators] => null
+            [CModel:_scenario] => 'update'
+            [CComponent:_e] => null
+            [CComponent:_m] => null
+        )
+        1 => array()
+    )
+    1 => array
+    (
+        0 => ProductOption#13
+        (
+            [CActiveRecord:_md] => CActiveRecordMetaData#2(...)
+            [CActiveRecord:_new] => false
+            [CActiveRecord:_attributes] => array
+            (
+                'id' => '25'
+                'product_id' => '2'
+                'option_id' => '4'
+                'option_value' => ''
+                'required' => '1'
+            )
+            [CActiveRecord:_related] => array()
+            [CActiveRecord:_c] => null
+            [CActiveRecord:_pk] => '25'
+            [CActiveRecord:_alias] => 't'
+            [CModel:_errors] => array()
+            [CModel:_validators] => null
+            [CModel:_scenario] => 'update'
+            [CComponent:_e] => null
+            [CComponent:_m] => null
+        )
+        1 => array
+        (
+            0 => ProductOptionValue#14
+            (
+                [CActiveRecord:_md] => CActiveRecordMetaData#15
+                (
+                    [tableSchema] => CMysqlTableSchema#16
+                    (
+                        [schemaName] => null
+                        [name] => 'product_option_value'
+                        [rawName] => '`product_option_value`'
+                        [primaryKey] => 'id'
+                        [sequenceName] => ''
+                        [foreignKeys] => array
+                        (
+                            'product_option_id' => array
+                            (
+                                0 => 'product_option'
+                                1 => 'id'
+                            )
+                            'product_id' => array
+                            (
+                                0 => 'product'
+                                1 => 'id'
+                            )
+                            'option_id' => array
+                            (
+                                0 => 'option'
+                                1 => 'id'
+                            )
+                            'option_value_id' => array
+                            (
+                                0 => 'option_value'
+                                1 => 'id'
+                            )
+                        )
+                        [columns] => array
+                        (
+                            'id' => CMysqlColumnSchema#17
+                            (
+                                [name] => 'id'
+                                [rawName] => '`id`'
+                                [allowNull] => false
+                                [dbType] => 'int(11)'
+                                [type] => 'integer'
+                                [defaultValue] => null
+                                [size] => 11
+                                [precision] => 11
+                                [scale] => null
+                                [isPrimaryKey] => true
+                                [isForeignKey] => false
+                                [autoIncrement] => true
+                                [comment] => ''
+                                [CComponent:_e] => null
+                                [CComponent:_m] => null
+                            )
+                            'product_option_id' => CMysqlColumnSchema#18
+                            (
+                                [name] => 'product_option_id'
+                                [rawName] => '`product_option_id`'
+                                [allowNull] => false
+                                [dbType] => 'int(11)'
+                                [type] => 'integer'
+                                [defaultValue] => null
+                                [size] => 11
+                                [precision] => 11
+                                [scale] => null
+                                [isPrimaryKey] => false
+                                [isForeignKey] => true
+                                [autoIncrement] => false
+                                [comment] => ''
+                                [CComponent:_e] => null
+                                [CComponent:_m] => null
+                            )
+                            'product_id' => CMysqlColumnSchema#19
+                            (
+                                [name] => 'product_id'
+                                [rawName] => '`product_id`'
+                                [allowNull] => false
+                                [dbType] => 'int(11)'
+                                [type] => 'integer'
+                                [defaultValue] => null
+                                [size] => 11
+                                [precision] => 11
+                                [scale] => null
+                                [isPrimaryKey] => false
+                                [isForeignKey] => true
+                                [autoIncrement] => false
+                                [comment] => ''
+                                [CComponent:_e] => null
+                                [CComponent:_m] => null
+                            )
+                            'option_id' => CMysqlColumnSchema#20
+                            (
+                                [name] => 'option_id'
+                                [rawName] => '`option_id`'
+                                [allowNull] => false
+                                [dbType] => 'int(11)'
+                                [type] => 'integer'
+                                [defaultValue] => null
+                                [size] => 11
+                                [precision] => 11
+                                [scale] => null
+                                [isPrimaryKey] => false
+                                [isForeignKey] => true
+                                [autoIncrement] => false
+                                [comment] => ''
+                                [CComponent:_e] => null
+                                [CComponent:_m] => null
+                            )
+                            'option_value_id' => CMysqlColumnSchema#21
+                            (
+                                [name] => 'option_value_id'
+                                [rawName] => '`option_value_id`'
+                                [allowNull] => false
+                                [dbType] => 'int(11)'
+                                [type] => 'integer'
+                                [defaultValue] => null
+                                [size] => 11
+                                [precision] => 11
+                                [scale] => null
+                                [isPrimaryKey] => false
+                                [isForeignKey] => true
+                                [autoIncrement] => false
+                                [comment] => ''
+                                [CComponent:_e] => null
+                                [CComponent:_m] => null
+                            )
+                            'quantity' => CMysqlColumnSchema#22
+                            (
+                                [name] => 'quantity'
+                                [rawName] => '`quantity`'
+                                [allowNull] => false
+                                [dbType] => 'int(3)'
+                                [type] => 'integer'
+                                [defaultValue] => null
+                                [size] => 3
+                                [precision] => 3
+                                [scale] => null
+                                [isPrimaryKey] => false
+                                [isForeignKey] => false
+                                [autoIncrement] => false
+                                [comment] => ''
+                                [CComponent:_e] => null
+                                [CComponent:_m] => null
+                            )
+                            'subtract' => CMysqlColumnSchema#23
+                            (
+                                [name] => 'subtract'
+                                [rawName] => '`subtract`'
+                                [allowNull] => false
+                                [dbType] => 'tinyint(1)'
+                                [type] => 'integer'
+                                [defaultValue] => null
+                                [size] => 1
+                                [precision] => 1
+                                [scale] => null
+                                [isPrimaryKey] => false
+                                [isForeignKey] => false
+                                [autoIncrement] => false
+                                [comment] => ''
+                                [CComponent:_e] => null
+                                [CComponent:_m] => null
+                            )
+                            'price' => CMysqlColumnSchema#24
+                            (
+                                [name] => 'price'
+                                [rawName] => '`price`'
+                                [allowNull] => false
+                                [dbType] => 'decimal(15,4)'
+                                [type] => 'string'
+                                [defaultValue] => null
+                                [size] => 15
+                                [precision] => 15
+                                [scale] => 4
+                                [isPrimaryKey] => false
+                                [isForeignKey] => false
+                                [autoIncrement] => false
+                                [comment] => ''
+                                [CComponent:_e] => null
+                                [CComponent:_m] => null
+                            )
+                            'price_prefix' => CMysqlColumnSchema#25
+                            (
+                                [name] => 'price_prefix'
+                                [rawName] => '`price_prefix`'
+                                [allowNull] => false
+                                [dbType] => 'varchar(1)'
+                                [type] => 'string'
+                                [defaultValue] => null
+                                [size] => 1
+                                [precision] => 1
+                                [scale] => null
+                                [isPrimaryKey] => false
+                                [isForeignKey] => false
+                                [autoIncrement] => false
+                                [comment] => ''
+                                [CComponent:_e] => null
+                                [CComponent:_m] => null
+                            )
+                            'points' => CMysqlColumnSchema#26
+                            (
+                                [name] => 'points'
+                                [rawName] => '`points`'
+                                [allowNull] => false
+                                [dbType] => 'int(8)'
+                                [type] => 'integer'
+                                [defaultValue] => null
+                                [size] => 8
+                                [precision] => 8
+                                [scale] => null
+                                [isPrimaryKey] => false
+                                [isForeignKey] => false
+                                [autoIncrement] => false
+                                [comment] => ''
+                                [CComponent:_e] => null
+                                [CComponent:_m] => null
+                            )
+                            'points_prefix' => CMysqlColumnSchema#27
+                            (
+                                [name] => 'points_prefix'
+                                [rawName] => '`points_prefix`'
+                                [allowNull] => false
+                                [dbType] => 'varchar(1)'
+                                [type] => 'string'
+                                [defaultValue] => null
+                                [size] => 1
+                                [precision] => 1
+                                [scale] => null
+                                [isPrimaryKey] => false
+                                [isForeignKey] => false
+                                [autoIncrement] => false
+                                [comment] => ''
+                                [CComponent:_e] => null
+                                [CComponent:_m] => null
+                            )
+                            'weight' => CMysqlColumnSchema#28
+                            (
+                                [name] => 'weight'
+                                [rawName] => '`weight`'
+                                [allowNull] => false
+                                [dbType] => 'decimal(15,8)'
+                                [type] => 'string'
+                                [defaultValue] => null
+                                [size] => 15
+                                [precision] => 15
+                                [scale] => 8
+                                [isPrimaryKey] => false
+                                [isForeignKey] => false
+                                [autoIncrement] => false
+                                [comment] => ''
+                                [CComponent:_e] => null
+                                [CComponent:_m] => null
+                            )
+                            'weight_prefix' => CMysqlColumnSchema#29
+                            (
+                                [name] => 'weight_prefix'
+                                [rawName] => '`weight_prefix`'
+                                [allowNull] => false
+                                [dbType] => 'varchar(1)'
+                                [type] => 'string'
+                                [defaultValue] => null
+                                [size] => 1
+                                [precision] => 1
+                                [scale] => null
+                                [isPrimaryKey] => false
+                                [isForeignKey] => false
+                                [autoIncrement] => false
+                                [comment] => ''
+                                [CComponent:_e] => null
+                                [CComponent:_m] => null
+                            )
+                        )
+                        [CComponent:_e] => null
+                        [CComponent:_m] => null
+                    )
+                    [columns] => array
+                    (
+                        'id' => CMysqlColumnSchema#17(...)
+                        'product_option_id' => CMysqlColumnSchema#18(...)
+                        'product_id' => CMysqlColumnSchema#19(...)
+                        'option_id' => CMysqlColumnSchema#20(...)
+                        'option_value_id' => CMysqlColumnSchema#21(...)
+                        'quantity' => CMysqlColumnSchema#22(...)
+                        'subtract' => CMysqlColumnSchema#23(...)
+                        'price' => CMysqlColumnSchema#24(...)
+                        'price_prefix' => CMysqlColumnSchema#25(...)
+                        'points' => CMysqlColumnSchema#26(...)
+                        'points_prefix' => CMysqlColumnSchema#27(...)
+                        'weight' => CMysqlColumnSchema#28(...)
+                        'weight_prefix' => CMysqlColumnSchema#29(...)
+                    )
+                    [relations] => array
+                    (
+                        'productOption' => CBelongsToRelation#30
+                        (
+                            [joinType] => 'LEFT OUTER JOIN'
+                            [on] => ''
+                            [alias] => null
+                            [with] => array()
+                            [together] => null
+                            [scopes] => null
+                            [name] => 'productOption'
+                            [className] => 'ProductOption'
+                            [foreignKey] => 'product_option_id'
+                            [select] => '*'
+                            [condition] => ''
+                            [params] => array()
+                            [group] => ''
+                            [join] => ''
+                            [having] => ''
+                            [order] => ''
+                            [CComponent:_e] => null
+                            [CComponent:_m] => null
+                        )
+                        'product' => CBelongsToRelation#31
+                        (
+                            [joinType] => 'LEFT OUTER JOIN'
+                            [on] => ''
+                            [alias] => null
+                            [with] => array()
+                            [together] => null
+                            [scopes] => null
+                            [name] => 'product'
+                            [className] => 'Product'
+                            [foreignKey] => 'product_id'
+                            [select] => '*'
+                            [condition] => ''
+                            [params] => array()
+                            [group] => ''
+                            [join] => ''
+                            [having] => ''
+                            [order] => ''
+                            [CComponent:_e] => null
+                            [CComponent:_m] => null
+                        )
+                        'option' => CBelongsToRelation#32
+                        (
+                            [joinType] => 'LEFT OUTER JOIN'
+                            [on] => ''
+                            [alias] => null
+                            [with] => array()
+                            [together] => null
+                            [scopes] => null
+                            [name] => 'option'
+                            [className] => 'Option'
+                            [foreignKey] => 'option_id'
+                            [select] => '*'
+                            [condition] => ''
+                            [params] => array()
+                            [group] => ''
+                            [join] => ''
+                            [having] => ''
+                            [order] => ''
+                            [CComponent:_e] => null
+                            [CComponent:_m] => null
+                        )
+                        'optionValue' => CBelongsToRelation#33
+                        (
+                            [joinType] => 'LEFT OUTER JOIN'
+                            [on] => ''
+                            [alias] => null
+                            [with] => array()
+                            [together] => null
+                            [scopes] => null
+                            [name] => 'optionValue'
+                            [className] => 'OptionValue'
+                            [foreignKey] => 'option_value_id'
+                            [select] => '*'
+                            [condition] => ''
+                            [params] => array()
+                            [group] => ''
+                            [join] => ''
+                            [having] => ''
+                            [order] => ''
+                            [CComponent:_e] => null
+                            [CComponent:_m] => null
+                        )
+                    )
+                    [attributeDefaults] => array()
+                    [CActiveRecordMetaData:_model] => ProductOptionValue#34
+                    (
+                        [CActiveRecord:_md] => CActiveRecordMetaData#15(...)
+                        [CActiveRecord:_new] => false
+                        [CActiveRecord:_attributes] => array()
+                        [CActiveRecord:_related] => array()
+                        [CActiveRecord:_c] => null
+                        [CActiveRecord:_pk] => null
+                        [CActiveRecord:_alias] => 't'
+                        [CModel:_errors] => array()
+                        [CModel:_validators] => null
+                        [CModel:_scenario] => ''
+                        [CComponent:_e] => null
+                        [CComponent:_m] => null
+                    )
+                )
+                [CActiveRecord:_new] => false
+                [CActiveRecord:_attributes] => array
+                (
+                    'id' => '12'
+                    'product_option_id' => '25'
+                    'product_id' => '2'
+                    'option_id' => '4'
+                    'option_value_id' => '24'
+                    'quantity' => '56'
+                    'subtract' => '0'
+                    'price' => '665.0000'
+                    'price_prefix' => '1'
+                    'points' => '0'
+                    'points_prefix' => ''
+                    'weight' => '90.00000000'
+                    'weight_prefix' => '1'
+                )
+                [CActiveRecord:_related] => array()
+                [CActiveRecord:_c] => null
+                [CActiveRecord:_pk] => '12'
+                [CActiveRecord:_alias] => 't'
+                [CModel:_errors] => array()
+                [CModel:_validators] => null
+                [CModel:_scenario] => 'update'
+                [CComponent:_e] => null
+                [CComponent:_m] => null
+            )
+        )
+    )
+)

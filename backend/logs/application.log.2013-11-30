@@ -1,0 +1,1410 @@
+Nov 30 00:24:52 [product.actions.create        ] : <E> ProductCreateAction: array
+(
+    1 => array
+    (
+        'required' => '1'
+        'option_id' => '4'
+        'ProductOptionValue' => array
+        (
+            0 => array
+            (
+                'option_value_id' => '24'
+                'quantity' => '21'
+                'subtract' => '0'
+                'price_prefix' => '2'
+                'price' => '56'
+                'weight_prefix' => '1'
+                'weight' => '76'
+            )
+            1 => array
+            (
+                'option_value_id' => '25'
+                'quantity' => '15'
+                'subtract' => '1'
+                'price_prefix' => '1'
+                'price' => '89'
+                'weight_prefix' => '2'
+                'weight' => '9'
+            )
+        )
+    )
+    2 => array
+    (
+        'required' => '0'
+        'option_id' => '3'
+        'option_value' => 'take it'
+    )
+)
+Nov 30 00:24:52 [php                           ] : <E> Undefined variable: description (C:\wamp\www\yorshop\backend\controllers\ProductController.php:166)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): ProductController->runAction()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\wamp\www\yorshop\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterChangePassword()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterAccessControl()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): ProductController->runActionWithFilters()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): ProductController->run()
+#13 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#15 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#16 C:\wamp\www\yorshop\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/backend/www/product/create/
+Nov 30 00:28:32 [product.actions.create        ] : <E> ProductCreateAction: array
+(
+    1 => array
+    (
+        'required' => '1'
+        'option_id' => '4'
+        'ProductOptionValue' => array
+        (
+            0 => array
+            (
+                'option_value_id' => '24'
+                'quantity' => '21'
+                'subtract' => '0'
+                'price_prefix' => '2'
+                'price' => '56'
+                'weight_prefix' => '1'
+                'weight' => '76'
+            )
+            1 => array
+            (
+                'option_value_id' => '25'
+                'quantity' => '15'
+                'subtract' => '1'
+                'price_prefix' => '1'
+                'price' => '89'
+                'weight_prefix' => '2'
+                'weight' => '9'
+            )
+        )
+    )
+    2 => array
+    (
+        'required' => '0'
+        'option_id' => '3'
+        'option_value' => 'take it'
+    )
+)
+Nov 30 00:53:54 [product.actions.create        ] : <E> ProductCreateAction: array
+(
+    0 => array
+    (
+        'required' => '1'
+        'option_id' => '4'
+        'ProductOptionValue' => array
+        (
+            0 => array
+            (
+                'option_value_id' => '24'
+                'quantity' => '21'
+                'subtract' => '0'
+                'price_prefix' => '2'
+                'price' => '56'
+                'weight_prefix' => '1'
+                'weight' => '76'
+            )
+            1 => array
+            (
+                'option_value_id' => '25'
+                'quantity' => '15'
+                'subtract' => '1'
+                'price_prefix' => '1'
+                'price' => '89'
+                'weight_prefix' => '2'
+                'weight' => '9'
+            )
+        )
+    )
+    1 => array
+    (
+        'required' => '0'
+        'option_id' => '3'
+        'option_value' => 'take it'
+    )
+)
+Nov 30 00:57:02 [product.actions.create        ] : <E> ProductCreateAction: array
+(
+    1 => array
+    (
+        'required' => '1'
+        'option_id' => '1'
+    )
+    2 => array
+    (
+        'required' => '0'
+        'option_id' => '4'
+        'ProductOptionValue' => array
+        (
+            0 => array
+            (
+                'option_value_id' => '25'
+                'quantity' => '67'
+                'subtract' => '0'
+                'price_prefix' => '2'
+                'price' => '78'
+                'weight_prefix' => '1'
+                'weight' => '89'
+            )
+        )
+    )
+)
+Nov 30 07:12:50 [product.actions.create        ] : <E> ProductCreateAction: array
+(
+    1 => array
+    (
+        'required' => '0'
+        'option_id' => '3'
+        'option_value' => 'test'
+    )
+    2 => array
+    (
+        'required' => '1'
+        'option_id' => '4'
+        'ProductOptionValue' => array
+        (
+            0 => array
+            (
+                'option_value_id' => '24'
+                'quantity' => '23'
+                'subtract' => '0'
+                'price_prefix' => '1'
+                'price' => '34'
+                'weight_prefix' => '2'
+                'weight' => '43'
+            )
+            1 => array
+            (
+                'option_value_id' => '25'
+                'quantity' => '11'
+                'subtract' => '1'
+                'price_prefix' => '2'
+                'price' => '45'
+                'weight_prefix' => '2'
+                'weight' => '54'
+            )
+        )
+    )
+)
+Nov 30 07:25:22 [product.actions.create        ] : <E> ProductCreateAction: array
+(
+    0 => array
+    (
+        'required' => '0'
+        'option_id' => '3'
+        'option_value' => 'test2
+hadt'
+    )
+    1 => array
+    (
+        'required' => '1'
+        'option_id' => '4'
+        'ProductOptionValue' => array
+        (
+            0 => array
+            (
+                'option_value_id' => '24'
+                'quantity' => '23'
+                'subtract' => '0'
+                'price_prefix' => '1'
+                'price' => '34'
+                'weight_prefix' => '2'
+                'weight' => '43'
+            )
+            1 => array
+            (
+                'option_value_id' => '25'
+                'quantity' => '11'
+                'subtract' => '1'
+                'price_prefix' => '2'
+                'price' => '45'
+                'weight_prefix' => '2'
+                'weight' => '54'
+            )
+        )
+    )
+)
+Nov 30 07:30:45 [product.actions.create        ] : <E> ProductCreateAction: array
+(
+    0 => array
+    (
+        'required' => '0'
+        'option_id' => '3'
+        'option_value' => 'Test works'
+    )
+    1 => array
+    (
+        'required' => '1'
+        'option_id' => '4'
+        'ProductOptionValue' => array
+        (
+            0 => array
+            (
+                'option_value_id' => '24'
+                'quantity' => '23'
+                'subtract' => '0'
+                'price_prefix' => '1'
+                'price' => '34'
+                'weight_prefix' => '2'
+                'weight' => '43'
+            )
+            1 => array
+            (
+                'option_value_id' => '25'
+                'quantity' => '11'
+                'subtract' => '1'
+                'price_prefix' => '2'
+                'price' => '45'
+                'weight_prefix' => '2'
+                'weight' => '54'
+            )
+        )
+    )
+)
+Nov 30 07:32:03 [product.actions.create        ] : <E> ProductCreateAction: array
+(
+    1 => array
+    (
+        'required' => '0'
+        'option_id' => '3'
+        'option_value' => 'hrjkrkjjr'
+    )
+)
+Nov 30 07:32:16 [product.actions.create        ] : <E> ProductCreateAction: array
+(
+    0 => array
+    (
+        'required' => '1'
+        'option_id' => '3'
+        'option_value' => 'hrjkrkjjr'
+    )
+)
+Nov 30 07:37:48 [product.actions.create        ] : <E> ProductCreateAction: array
+(
+    0 => array
+    (
+        'required' => '1'
+        'option_id' => '3'
+        'option_value' => 'hjkl;'
+    )
+)
+Nov 30 07:37:48 [exception.CException          ] : <E> exception 'CException' with message 'Property "Editable.defaultValue" is not defined.' in C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CWidgetFactory.php(161): CComponent->__set('defaultValue', 'hjkl;')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(ProductController), 'common.extensio...', Array)
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(172): CBaseController->createWidget('common.extensio...', Array)
+#3 C:\wamp\www\yorshop\backend\views\product\_option.php(274): CBaseController->widget('common.extensio...', Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#7 C:\wamp\www\yorshop\backend\views\product\_form_product.php(25): CController->renderPartial('_option', Array, true, false)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#11 C:\wamp\www\yorshop\backend\controllers\ProductController.php(60): CController->renderPartial('_form_product', Array, false, true)
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProductController->actionCreate()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\wamp\www\yorshop\backend\components\Controller.php(68): CFilter->filter(Object(CFilterChain))
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): Controller->filterChangePassword(Object(CFilterChain))
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#24 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('create')
+#26 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('product/create')
+#27 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('product/create')
+#28 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#29 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#30 {main}
+REQUEST_URI=/yorshop/backend/www/product/create/
+HTTP_REFERER=http://localhost/yorshop/backend/www/product/index
+---
+Nov 30 07:47:48 [product.actions.create        ] : <E> ProductCreateAction: array
+(
+    0 => array
+    (
+        'required' => '1'
+        'option_id' => '3'
+        'option_value' => 'hjkl;'
+    )
+)
+Nov 30 07:47:49 [exception.CException          ] : <E> exception 'CException' with message 'Property "Editable.defaultValue" is not defined.' in C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CWidgetFactory.php(161): CComponent->__set('defaultValue', 'hjkl;')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(ProductController), 'common.extensio...', Array)
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(172): CBaseController->createWidget('common.extensio...', Array)
+#3 C:\wamp\www\yorshop\backend\views\product\_option.php(274): CBaseController->widget('common.extensio...', Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#7 C:\wamp\www\yorshop\backend\views\product\_form_product.php(25): CController->renderPartial('_option', Array, true, false)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#11 C:\wamp\www\yorshop\backend\controllers\ProductController.php(60): CController->renderPartial('_form_product', Array, false, true)
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProductController->actionCreate()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\wamp\www\yorshop\backend\components\Controller.php(68): CFilter->filter(Object(CFilterChain))
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): Controller->filterChangePassword(Object(CFilterChain))
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#24 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('create')
+#26 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('product/create')
+#27 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('product/create')
+#28 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#29 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#30 {main}
+REQUEST_URI=/yorshop/backend/www/product/create/
+HTTP_REFERER=http://localhost/yorshop/backend/www/product/index
+---
+Nov 30 07:48:12 [product.actions.create        ] : <E> ProductCreateAction: array
+(
+    0 => array
+    (
+        'required' => '1'
+        'option_id' => '3'
+        'option_value' => 'hjkl;'
+    )
+)
+Nov 30 07:48:53 [product.actions.create        ] : <E> ProductCreateAction: array
+(
+    0 => array
+    (
+        'required' => '1'
+        'option_id' => '3'
+        'option_value' => 'rtrtrtr'
+    )
+)
+Nov 30 07:51:03 [product.actions.create        ] : <E> ProductCreateAction: array
+(
+    0 => array
+    (
+        'required' => '1'
+        'option_id' => '3'
+        'option_value' => 'rtrtrtr'
+    )
+)
+Nov 30 07:52:45 [product.actions.create        ] : <E> ProductCreateAction: array
+(
+    0 => array
+    (
+        'required' => '1'
+        'option_id' => '3'
+        'option_value' => 'vava voom'
+    )
+)
+Nov 30 07:58:30 [product.actions.create        ] : <E> ProductCreateAction: array
+(
+    0 => array
+    (
+        'required' => '1'
+        'option_id' => '3'
+        'option_value' => 'vava voom'
+    )
+)
+Nov 30 07:59:32 [product.actions.create        ] : <E> ProductCreateAction: array
+(
+    0 => array
+    (
+        'required' => '1'
+        'option_id' => '3'
+        'option_value' => 'vava voom'
+    )
+)
+Nov 30 08:00:39 [product.actions.create        ] : <E> ProductCreateAction: array
+(
+    0 => array
+    (
+        'required' => '1'
+        'option_id' => '3'
+        'option_value' => 'vava voom'
+    )
+    1 => array
+    (
+        'required' => '0'
+        'option_id' => '3'
+        'option_value' => ''
+    )
+)
+Nov 30 09:39:28 [product.actions.create        ] : <E> ProductCreateAction: array
+(
+    0 => array
+    (
+        'required' => '1'
+        'option_id' => '3'
+        'option_value' => 'jkllkkklk
+'
+    )
+)
+Nov 30 09:52:00 [product.actions.create        ] : <E> ProductCreateAction: array
+(
+    1 => array
+    (
+        'required' => ''
+        'option_value' => ''
+    )
+    0 => array
+    (
+        'option_id' => '3'
+    )
+)
+Nov 30 09:52:00 [php                           ] : <E> Undefined index: required (C:\wamp\www\yorshop\backend\controllers\ProductController.php:155)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): ProductController->runAction()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\wamp\www\yorshop\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterChangePassword()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterAccessControl()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): ProductController->runActionWithFilters()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): ProductController->run()
+#13 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#15 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#16 C:\wamp\www\yorshop\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/backend/www/product/create/
+Nov 30 10:05:42 [product.actions.create        ] : <E> ProductCreateAction: array
+(
+    -1 => array
+    (
+        'required' => ''
+        'option_value' => ''
+    )
+    0 => array
+    (
+        'option_id' => '3'
+    )
+)
+Nov 30 10:05:42 [php                           ] : <E> Undefined index: required (C:\wamp\www\yorshop\backend\controllers\ProductController.php:155)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): ProductController->runAction()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\wamp\www\yorshop\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterChangePassword()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterAccessControl()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): ProductController->runActionWithFilters()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): ProductController->run()
+#13 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#15 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#16 C:\wamp\www\yorshop\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/backend/www/product/create/
+Nov 30 10:06:45 [product.actions.create        ] : <E> ProductCreateAction: array
+(
+    0 => array
+    (
+        'required' => ''
+        'option_id' => '3'
+        'option_value' => ''
+    )
+)
+Nov 30 10:07:40 [product.actions.create        ] : <E> ProductCreateAction: array
+(
+    0 => array
+    (
+        'required' => '1'
+        'option_id' => '3'
+        'option_value' => 'rerere'
+    )
+)
+Nov 30 10:17:14 [product.actions.create        ] : <E> ProductCreateAction: array
+(
+    0 => array
+    (
+        'required' => ''
+        'option_id' => '3'
+        'option_value' => ''
+    )
+)
+Nov 30 13:05:29 [php                           ] : <E> Undefined variable: attribute (C:\wamp\www\yorshop\backend\controllers\ProductController.php:69)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): ProductController->runAction()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\wamp\www\yorshop\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterChangePassword()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterAccessControl()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): ProductController->runActionWithFilters()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): ProductController->run()
+#12 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#14 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#15 C:\wamp\www\yorshop\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/backend/www/product/create/
+Nov 30 13:08:58 [php                           ] : <E> Undefined variable: attribute (C:\wamp\www\yorshop\backend\views\product\_attribute.php:52)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#1 C:\wamp\www\yorshop\backend\views\product\_form_product.php(30): ProductController->renderPartial()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): ProductController->renderInternal()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#5 C:\wamp\www\yorshop\backend\controllers\ProductController.php(69): ProductController->renderPartial()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProductController->actionCreate()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): ProductController->runAction()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\wamp\www\yorshop\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterChangePassword()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterAccessControl()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): ProductController->runActionWithFilters()
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): ProductController->run()
+#20 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#22 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#23 C:\wamp\www\yorshop\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/backend/www/product/create/
+Nov 30 13:09:00 [php                           ] : <E> Undefined variable: attribute (C:\wamp\www\yorshop\backend\views\product\_attribute.php:52)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#1 C:\wamp\www\yorshop\backend\views\product\_form_product.php(30): ProductController->renderPartial()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): ProductController->renderInternal()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#5 C:\wamp\www\yorshop\backend\controllers\ProductController.php(69): ProductController->renderPartial()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProductController->actionCreate()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): ProductController->runAction()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\wamp\www\yorshop\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterChangePassword()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterAccessControl()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): ProductController->runActionWithFilters()
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): ProductController->run()
+#20 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#22 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#23 C:\wamp\www\yorshop\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/backend/www/product/create/
+Nov 30 13:09:01 [php                           ] : <E> Undefined variable: attribute (C:\wamp\www\yorshop\backend\views\product\_attribute.php:52)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#1 C:\wamp\www\yorshop\backend\views\product\_form_product.php(30): ProductController->renderPartial()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): ProductController->renderInternal()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#5 C:\wamp\www\yorshop\backend\controllers\ProductController.php(69): ProductController->renderPartial()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProductController->actionCreate()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): ProductController->runAction()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\wamp\www\yorshop\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterChangePassword()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterAccessControl()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): ProductController->runActionWithFilters()
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): ProductController->run()
+#20 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#22 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#23 C:\wamp\www\yorshop\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/backend/www/product/create/
+Nov 30 13:10:08 [php                           ] : <E> Undefined variable: opt (C:\wamp\www\yorshop\backend\views\product\_attribute.php:70)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#1 C:\wamp\www\yorshop\backend\views\product\_form_product.php(30): ProductController->renderPartial()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): ProductController->renderInternal()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#5 C:\wamp\www\yorshop\backend\controllers\ProductController.php(69): ProductController->renderPartial()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProductController->actionCreate()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): ProductController->runAction()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\wamp\www\yorshop\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterChangePassword()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterAccessControl()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): ProductController->runActionWithFilters()
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): ProductController->run()
+#20 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#22 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#23 C:\wamp\www\yorshop\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/backend/www/product/create/
+Nov 30 13:10:10 [php                           ] : <E> Undefined variable: opt (C:\wamp\www\yorshop\backend\views\product\_attribute.php:70)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#1 C:\wamp\www\yorshop\backend\views\product\_form_product.php(30): ProductController->renderPartial()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): ProductController->renderInternal()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#5 C:\wamp\www\yorshop\backend\controllers\ProductController.php(69): ProductController->renderPartial()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProductController->actionCreate()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): ProductController->runAction()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\wamp\www\yorshop\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterChangePassword()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterAccessControl()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): ProductController->runActionWithFilters()
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): ProductController->run()
+#20 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#22 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#23 C:\wamp\www\yorshop\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/backend/www/product/create/
+Nov 30 13:10:12 [php                           ] : <E> Undefined variable: opt (C:\wamp\www\yorshop\backend\views\product\_attribute.php:70)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#1 C:\wamp\www\yorshop\backend\views\product\_form_product.php(30): ProductController->renderPartial()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): ProductController->renderInternal()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#5 C:\wamp\www\yorshop\backend\controllers\ProductController.php(69): ProductController->renderPartial()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProductController->actionCreate()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): ProductController->runAction()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\wamp\www\yorshop\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterChangePassword()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterAccessControl()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): ProductController->runActionWithFilters()
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): ProductController->run()
+#20 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#22 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#23 C:\wamp\www\yorshop\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/backend/www/product/create/
+Nov 30 13:11:46 [php                           ] : <E> Undefined variable: data (C:\wamp\www\yorshop\backend\views\product\_attribute.php:70)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#1 C:\wamp\www\yorshop\backend\views\product\_form_product.php(30): ProductController->renderPartial()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): ProductController->renderInternal()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#5 C:\wamp\www\yorshop\backend\controllers\ProductController.php(69): ProductController->renderPartial()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProductController->actionCreate()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): ProductController->runAction()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\wamp\www\yorshop\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterChangePassword()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterAccessControl()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): ProductController->runActionWithFilters()
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): ProductController->run()
+#20 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#22 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#23 C:\wamp\www\yorshop\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/backend/www/product/create/
+Nov 30 13:15:52 [php                           ] : <E> Trying to get property of non-object (C:\wamp\www\yorshop\backend\views\product\_attribute.php:70)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#1 C:\wamp\www\yorshop\backend\views\product\_form_product.php(30): ProductController->renderPartial()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): ProductController->renderInternal()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#5 C:\wamp\www\yorshop\backend\controllers\ProductController.php(69): ProductController->renderPartial()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProductController->actionCreate()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): ProductController->runAction()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\wamp\www\yorshop\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterChangePassword()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterAccessControl()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): ProductController->runActionWithFilters()
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): ProductController->run()
+#20 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#22 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#23 C:\wamp\www\yorshop\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/backend/www/product/create/
+Nov 30 13:15:54 [php                           ] : <E> Trying to get property of non-object (C:\wamp\www\yorshop\backend\views\product\_attribute.php:70)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#1 C:\wamp\www\yorshop\backend\views\product\_form_product.php(30): ProductController->renderPartial()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): ProductController->renderInternal()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#5 C:\wamp\www\yorshop\backend\controllers\ProductController.php(69): ProductController->renderPartial()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProductController->actionCreate()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): ProductController->runAction()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\wamp\www\yorshop\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterChangePassword()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterAccessControl()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): ProductController->runActionWithFilters()
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): ProductController->run()
+#20 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#22 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#23 C:\wamp\www\yorshop\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/backend/www/product/create/
+Nov 30 18:06:44 [exception.CException          ] : <E> exception 'CException' with message 'Attribute and its behaviors do not have a method or closure named "label".' in C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php:265
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(225): CComponent->__call('label', Array)
+#1 C:\wamp\www\yorshop\common\extensions\giix\components\GxActiveRecord.php(127): CActiveRecord->__call('label', Array)
+#2 C:\wamp\www\yorshop\common\extensions\giix\components\GxActiveRecord.php(127): Attribute->label(1)
+#3 C:\wamp\www\yorshop\common\extensions\giix\components\GxActiveRecord.php(173): GxActiveRecord->getRelationLabel('attribute_id')
+#4 C:\wamp\www\yorshop\common\lib\Yii\validators\CValidator.php(262): GxActiveRecord->getAttributeLabel('attribute_id')
+#5 C:\wamp\www\yorshop\common\lib\Yii\validators\CRequiredValidator.php(64): CValidator->addError(Object(ProductAttribute), 'attribute_id', '{attribute} can...')
+#6 C:\wamp\www\yorshop\common\lib\Yii\validators\CValidator.php(213): CRequiredValidator->validateAttribute(Object(ProductAttribute), 'attribute_id')
+#7 C:\wamp\www\yorshop\common\lib\Yii\base\CModel.php(159): CValidator->validate(Object(ProductAttribute), NULL)
+#8 C:\wamp\www\yorshop\backend\controllers\ProductController.php(174): CModel->validate()
+#9 C:\wamp\www\yorshop\backend\controllers\ProductController.php(65): ProductController->validateProductAttribute()
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProductController->actionCreate()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\wamp\www\yorshop\backend\components\Controller.php(68): CFilter->filter(Object(CFilterChain))
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): Controller->filterChangePassword(Object(CFilterChain))
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#22 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('create')
+#24 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('product/create')
+#25 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('product/create')
+#26 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#28 {main}
+REQUEST_URI=/yorshop/backend/www/product/create/
+HTTP_REFERER=http://localhost/yorshop/backend/www/product/index
+---
+Nov 30 18:07:33 [exception.CException          ] : <E> exception 'CException' with message 'Attribute and its behaviors do not have a method or closure named "label".' in C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php:265
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(225): CComponent->__call('label', Array)
+#1 C:\wamp\www\yorshop\common\extensions\giix\components\GxActiveRecord.php(127): CActiveRecord->__call('label', Array)
+#2 C:\wamp\www\yorshop\common\extensions\giix\components\GxActiveRecord.php(127): Attribute->label(1)
+#3 C:\wamp\www\yorshop\common\extensions\giix\components\GxActiveRecord.php(173): GxActiveRecord->getRelationLabel('attribute_id')
+#4 C:\wamp\www\yorshop\common\lib\Yii\validators\CValidator.php(262): GxActiveRecord->getAttributeLabel('attribute_id')
+#5 C:\wamp\www\yorshop\common\lib\Yii\validators\CRequiredValidator.php(64): CValidator->addError(Object(ProductAttribute), 'attribute_id', '{attribute} can...')
+#6 C:\wamp\www\yorshop\common\lib\Yii\validators\CValidator.php(213): CRequiredValidator->validateAttribute(Object(ProductAttribute), 'attribute_id')
+#7 C:\wamp\www\yorshop\common\lib\Yii\base\CModel.php(159): CValidator->validate(Object(ProductAttribute), NULL)
+#8 C:\wamp\www\yorshop\backend\controllers\ProductController.php(174): CModel->validate()
+#9 C:\wamp\www\yorshop\backend\controllers\ProductController.php(65): ProductController->validateProductAttribute()
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProductController->actionCreate()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\wamp\www\yorshop\backend\components\Controller.php(68): CFilter->filter(Object(CFilterChain))
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): Controller->filterChangePassword(Object(CFilterChain))
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#22 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('create')
+#24 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('product/create')
+#25 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('product/create')
+#26 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#27 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#28 {main}
+REQUEST_URI=/yorshop/backend/www/product/create/
+HTTP_REFERER=http://localhost/yorshop/backend/www/product/index
+---
+Nov 30 18:13:44 [php                           ] : <E> Undefined variable: option (C:\wamp\www\yorshop\backend\controllers\ProductController.php:175)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): ProductController->runAction()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\wamp\www\yorshop\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterChangePassword()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterAccessControl()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): ProductController->runActionWithFilters()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): ProductController->run()
+#13 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#15 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#16 C:\wamp\www\yorshop\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/backend/www/product/create/
+Nov 30 18:17:49 [php                           ] : <E> urlencode() expects parameter 1 to be string, array given (C:\wamp\www\yorshop\common\lib\Yii\web\CUrlManager.php:758)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(531): CUrlManager->createUrl()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(967): WebApplication->createUrl()
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php(606) : eval()'d code(1): ProductController->createUrl()
+#3 C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php(606): eval()
+#4 C:\wamp\www\yorshop\common\extensions\bootstrap\widgets\TbButtonColumn.php(69): TbButtonColumn->evaluateExpression()
+#5 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CButtonColumn.php(295): TbButtonColumn->renderButton()
+#6 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridColumn.php(144): TbButtonColumn->renderDataCellContent()
+#7 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridView.php(589): TbButtonColumn->renderDataCell()
+#8 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridView.php(545): TbGridView->renderTableRow()
+#9 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridView.php(455): TbGridView->renderTableBody()
+#10 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(160): TbGridView->renderItems()
+#11 unknown(0): TbGridView->renderSection()
+#12 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#13 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(128): TbGridView->renderContent()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(173): TbGridView->run()
+#15 C:\wamp\www\yorshop\backend\views\product\_attribute.php(104): ProductController->widget()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): ProductController->renderInternal()
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#19 C:\wamp\www\yorshop\backend\views\product\_form_product.php(30): ProductController->renderPartial()
+#20 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): ProductController->renderInternal()
+#22 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#23 C:\wamp\www\yorshop\backend\controllers\ProductController.php(69): ProductController->renderPartial()
+#24 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProductController->actionCreate()
+#25 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#26 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): ProductController->runAction()
+#27 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#28 C:\wamp\www\yorshop\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#29 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterChangePassword()
+#30 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#31 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#32 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#33 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterAccessControl()
+#34 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#35 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#36 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): ProductController->runActionWithFilters()
+#37 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): ProductController->run()
+#38 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#39 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#40 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#41 C:\wamp\www\yorshop\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/backend/www/product/create/
+Nov 30 18:27:04 [php                           ] : <E> urlencode() expects parameter 1 to be string, array given (C:\wamp\www\yorshop\common\lib\Yii\web\CUrlManager.php:758)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(531): CUrlManager->createUrl()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(967): WebApplication->createUrl()
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php(606) : eval()'d code(1): ProductController->createUrl()
+#3 C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php(606): eval()
+#4 C:\wamp\www\yorshop\common\extensions\bootstrap\widgets\TbButtonColumn.php(69): TbButtonColumn->evaluateExpression()
+#5 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CButtonColumn.php(295): TbButtonColumn->renderButton()
+#6 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridColumn.php(144): TbButtonColumn->renderDataCellContent()
+#7 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridView.php(589): TbButtonColumn->renderDataCell()
+#8 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridView.php(545): TbGridView->renderTableRow()
+#9 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridView.php(455): TbGridView->renderTableBody()
+#10 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(160): TbGridView->renderItems()
+#11 unknown(0): TbGridView->renderSection()
+#12 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#13 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(128): TbGridView->renderContent()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(173): TbGridView->run()
+#15 C:\wamp\www\yorshop\backend\views\product\_attribute.php(104): ProductController->widget()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): ProductController->renderInternal()
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#19 C:\wamp\www\yorshop\backend\views\product\_form_product.php(30): ProductController->renderPartial()
+#20 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): ProductController->renderInternal()
+#22 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#23 C:\wamp\www\yorshop\backend\controllers\ProductController.php(69): ProductController->renderPartial()
+#24 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProductController->actionCreate()
+#25 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#26 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): ProductController->runAction()
+#27 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#28 C:\wamp\www\yorshop\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#29 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterChangePassword()
+#30 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#31 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#32 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#33 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterAccessControl()
+#34 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#35 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#36 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): ProductController->runActionWithFilters()
+#37 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): ProductController->run()
+#38 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#39 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#40 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#41 C:\wamp\www\yorshop\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/backend/www/product/create/
+Nov 30 18:34:22 [php                           ] : <E> urlencode() expects parameter 1 to be string, array given (C:\wamp\www\yorshop\common\lib\Yii\web\CUrlManager.php:758)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(531): CUrlManager->createUrl()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(967): WebApplication->createUrl()
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php(606) : eval()'d code(1): ProductController->createUrl()
+#3 C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php(606): eval()
+#4 C:\wamp\www\yorshop\common\extensions\bootstrap\widgets\TbButtonColumn.php(69): TbButtonColumn->evaluateExpression()
+#5 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CButtonColumn.php(295): TbButtonColumn->renderButton()
+#6 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridColumn.php(144): TbButtonColumn->renderDataCellContent()
+#7 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridView.php(589): TbButtonColumn->renderDataCell()
+#8 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridView.php(545): TbGridView->renderTableRow()
+#9 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridView.php(455): TbGridView->renderTableBody()
+#10 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(160): TbGridView->renderItems()
+#11 unknown(0): TbGridView->renderSection()
+#12 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#13 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(128): TbGridView->renderContent()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(173): TbGridView->run()
+#15 C:\wamp\www\yorshop\backend\views\product\_attribute.php(104): ProductController->widget()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): ProductController->renderInternal()
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#19 C:\wamp\www\yorshop\backend\views\product\_form_product.php(30): ProductController->renderPartial()
+#20 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): ProductController->renderInternal()
+#22 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#23 C:\wamp\www\yorshop\backend\controllers\ProductController.php(69): ProductController->renderPartial()
+#24 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProductController->actionCreate()
+#25 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#26 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): ProductController->runAction()
+#27 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#28 C:\wamp\www\yorshop\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#29 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterChangePassword()
+#30 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#31 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#32 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#33 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterAccessControl()
+#34 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#35 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#36 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): ProductController->runActionWithFilters()
+#37 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): ProductController->run()
+#38 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#39 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#40 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#41 C:\wamp\www\yorshop\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/backend/www/product/create/
+Nov 30 18:49:11 [php                           ] : <E> urlencode() expects parameter 1 to be string, array given (C:\wamp\www\yorshop\common\lib\Yii\web\CUrlManager.php:758)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(531): CUrlManager->createUrl()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(967): WebApplication->createUrl()
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php(606) : eval()'d code(1): ProductController->createUrl()
+#3 C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php(606): eval()
+#4 C:\wamp\www\yorshop\common\extensions\bootstrap\widgets\TbButtonColumn.php(69): TbButtonColumn->evaluateExpression()
+#5 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CButtonColumn.php(295): TbButtonColumn->renderButton()
+#6 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridColumn.php(144): TbButtonColumn->renderDataCellContent()
+#7 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridView.php(589): TbButtonColumn->renderDataCell()
+#8 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridView.php(545): TbGridView->renderTableRow()
+#9 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridView.php(455): TbGridView->renderTableBody()
+#10 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(160): TbGridView->renderItems()
+#11 unknown(0): TbGridView->renderSection()
+#12 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#13 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(128): TbGridView->renderContent()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(173): TbGridView->run()
+#15 C:\wamp\www\yorshop\backend\views\product\_attribute.php(104): ProductController->widget()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): ProductController->renderInternal()
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#19 C:\wamp\www\yorshop\backend\views\product\_form_product.php(30): ProductController->renderPartial()
+#20 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): ProductController->renderInternal()
+#22 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#23 C:\wamp\www\yorshop\backend\controllers\ProductController.php(69): ProductController->renderPartial()
+#24 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProductController->actionCreate()
+#25 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#26 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): ProductController->runAction()
+#27 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#28 C:\wamp\www\yorshop\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#29 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterChangePassword()
+#30 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#31 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#32 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#33 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterAccessControl()
+#34 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#35 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#36 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): ProductController->runActionWithFilters()
+#37 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): ProductController->run()
+#38 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#39 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#40 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#41 C:\wamp\www\yorshop\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/backend/www/product/create/
+Nov 30 18:49:51 [exception.CException          ] : <E> exception 'CException' with message 'Property "ProductAttribute.id" is not defined.' in C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(143): CComponent->__get('id')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CArrayDataProvider.php(108): CActiveRecord->__get('id')
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CDataProvider.php(190): CArrayDataProvider->fetchKeys()
+#3 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(188): CDataProvider->getKeys()
+#4 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(129): CBaseListView->renderKeys()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(173): CBaseListView->run()
+#6 C:\wamp\www\yorshop\backend\views\product\_attribute.php(94): CBaseController->widget('bootstrap.widge...', Array)
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#10 C:\wamp\www\yorshop\backend\views\product\_form_product.php(30): CController->renderPartial('_attribute', Array, true, false)
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#14 C:\wamp\www\yorshop\backend\controllers\ProductController.php(69): CController->renderPartial('_form_product', Array, false, true)
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProductController->actionCreate()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\wamp\www\yorshop\backend\components\Controller.php(68): CFilter->filter(Object(CFilterChain))
+#20 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): Controller->filterChangePassword(Object(CFilterChain))
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#23 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#24 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#25 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#26 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#27 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#28 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('create')
+#29 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('product/create')
+#30 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('product/create')
+#31 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#32 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#33 {main}
+REQUEST_URI=/yorshop/backend/www/product/create/
+HTTP_REFERER=http://localhost/yorshop/backend/www/product/index
+---
+Nov 30 18:51:08 [exception.CException          ] : <E> exception 'CException' with message 'Property "ProductAttribute.id" is not defined.' in C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(143): CComponent->__get('id')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CArrayDataProvider.php(108): CActiveRecord->__get('id')
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CDataProvider.php(190): CArrayDataProvider->fetchKeys()
+#3 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(188): CDataProvider->getKeys()
+#4 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(129): CBaseListView->renderKeys()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(173): CBaseListView->run()
+#6 C:\wamp\www\yorshop\backend\views\product\_attribute.php(89): CBaseController->widget('bootstrap.widge...', Array)
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#10 C:\wamp\www\yorshop\backend\views\product\_form_product.php(30): CController->renderPartial('_attribute', Array, true, false)
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#14 C:\wamp\www\yorshop\backend\controllers\ProductController.php(69): CController->renderPartial('_form_product', Array, false, true)
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProductController->actionCreate()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\wamp\www\yorshop\backend\components\Controller.php(68): CFilter->filter(Object(CFilterChain))
+#20 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): Controller->filterChangePassword(Object(CFilterChain))
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#23 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#24 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#25 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#26 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#27 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#28 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('create')
+#29 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('product/create')
+#30 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('product/create')
+#31 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#32 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#33 {main}
+REQUEST_URI=/yorshop/backend/www/product/create/
+HTTP_REFERER=http://localhost/yorshop/backend/www/product/index
+---
+Nov 30 19:14:23 [exception.CException          ] : <E> exception 'CException' with message 'Property "ProductAttribute.id" is not defined.' in C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(143): CComponent->__get('id')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CArrayDataProvider.php(108): CActiveRecord->__get('id')
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CDataProvider.php(190): CArrayDataProvider->fetchKeys()
+#3 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(188): CDataProvider->getKeys()
+#4 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(129): CBaseListView->renderKeys()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(173): CBaseListView->run()
+#6 C:\wamp\www\yorshop\backend\views\product\_attribute.php(89): CBaseController->widget('bootstrap.widge...', Array)
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#10 C:\wamp\www\yorshop\backend\views\product\_form_product.php(30): CController->renderPartial('_attribute', Array, true, false)
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#14 C:\wamp\www\yorshop\backend\controllers\ProductController.php(69): CController->renderPartial('_form_product', Array, false, true)
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProductController->actionCreate()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\wamp\www\yorshop\backend\components\Controller.php(68): CFilter->filter(Object(CFilterChain))
+#20 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): Controller->filterChangePassword(Object(CFilterChain))
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#23 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#24 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#25 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#26 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#27 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#28 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('create')
+#29 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('product/create')
+#30 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('product/create')
+#31 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#32 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#33 {main}
+REQUEST_URI=/yorshop/backend/www/product/create/
+HTTP_REFERER=http://localhost/yorshop/backend/www/product/index
+---
+Nov 30 19:24:13 [exception.CException          ] : <E> exception 'CException' with message 'Property "TbGridView.keyField" is not defined.' in C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\web\CWidgetFactory.php(161): CComponent->__set('keyField', false)
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(ProductController), 'bootstrap.widge...', Array)
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\wamp\www\yorshop\backend\views\product\_attribute.php(100): CBaseController->widget('bootstrap.widge...', Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#7 C:\wamp\www\yorshop\backend\views\product\_form_product.php(30): CController->renderPartial('_attribute', Array, true, false)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#11 C:\wamp\www\yorshop\backend\controllers\ProductController.php(69): CController->renderPartial('_form_product', Array, false, true)
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProductController->actionCreate()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\wamp\www\yorshop\backend\components\Controller.php(68): CFilter->filter(Object(CFilterChain))
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): Controller->filterChangePassword(Object(CFilterChain))
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#24 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('create')
+#26 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('product/create')
+#27 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('product/create')
+#28 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#29 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#30 {main}
+REQUEST_URI=/yorshop/backend/www/product/create/
+HTTP_REFERER=http://localhost/yorshop/backend/www/product/index
+---
+Nov 30 19:30:29 [php                           ] : <E> urlencode() expects parameter 1 to be string, array given (C:\wamp\www\yorshop\common\lib\Yii\web\CUrlManager.php:758)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(531): CUrlManager->createUrl()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(967): WebApplication->createUrl()
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php(606) : eval()'d code(1): ProductController->createUrl()
+#3 C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php(606): eval()
+#4 C:\wamp\www\yorshop\common\extensions\bootstrap\widgets\TbButtonColumn.php(69): TbButtonColumn->evaluateExpression()
+#5 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CButtonColumn.php(295): TbButtonColumn->renderButton()
+#6 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridColumn.php(144): TbButtonColumn->renderDataCellContent()
+#7 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridView.php(589): TbButtonColumn->renderDataCell()
+#8 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridView.php(545): TbGridView->renderTableRow()
+#9 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridView.php(455): TbGridView->renderTableBody()
+#10 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(160): TbGridView->renderItems()
+#11 unknown(0): TbGridView->renderSection()
+#12 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#13 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(128): TbGridView->renderContent()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(173): TbGridView->run()
+#15 C:\wamp\www\yorshop\backend\views\product\_attribute.php(99): ProductController->widget()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): ProductController->renderInternal()
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#19 C:\wamp\www\yorshop\backend\views\product\_form_product.php(30): ProductController->renderPartial()
+#20 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): ProductController->renderInternal()
+#22 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#23 C:\wamp\www\yorshop\backend\controllers\ProductController.php(69): ProductController->renderPartial()
+#24 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProductController->actionCreate()
+#25 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#26 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): ProductController->runAction()
+#27 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#28 C:\wamp\www\yorshop\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#29 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterChangePassword()
+#30 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#31 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#32 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#33 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterAccessControl()
+#34 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#35 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#36 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): ProductController->runActionWithFilters()
+#37 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): ProductController->run()
+#38 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#39 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#40 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#41 C:\wamp\www\yorshop\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/backend/www/product/create/
+Nov 30 20:45:31 [php                           ] : <E> urlencode() expects parameter 1 to be string, array given (C:\wamp\www\yorshop\common\lib\Yii\web\CUrlManager.php:758)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(531): CUrlManager->createUrl()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(967): WebApplication->createUrl()
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php(606) : eval()'d code(1): ProductController->createUrl()
+#3 C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php(606): eval()
+#4 C:\wamp\www\yorshop\common\extensions\bootstrap\widgets\TbButtonColumn.php(69): TbButtonColumn->evaluateExpression()
+#5 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CButtonColumn.php(295): TbButtonColumn->renderButton()
+#6 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridColumn.php(144): TbButtonColumn->renderDataCellContent()
+#7 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridView.php(589): TbButtonColumn->renderDataCell()
+#8 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridView.php(545): TbGridView->renderTableRow()
+#9 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridView.php(455): TbGridView->renderTableBody()
+#10 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(160): TbGridView->renderItems()
+#11 unknown(0): TbGridView->renderSection()
+#12 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#13 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(128): TbGridView->renderContent()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(173): TbGridView->run()
+#15 C:\wamp\www\yorshop\backend\views\product\_attribute.php(99): ProductController->widget()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): ProductController->renderInternal()
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#19 C:\wamp\www\yorshop\backend\views\product\_form_product.php(30): ProductController->renderPartial()
+#20 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): ProductController->renderInternal()
+#22 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#23 C:\wamp\www\yorshop\backend\controllers\ProductController.php(69): ProductController->renderPartial()
+#24 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProductController->actionCreate()
+#25 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#26 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): ProductController->runAction()
+#27 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#28 C:\wamp\www\yorshop\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#29 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterChangePassword()
+#30 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#31 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#32 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#33 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterAccessControl()
+#34 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#35 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#36 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): ProductController->runActionWithFilters()
+#37 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): ProductController->run()
+#38 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#39 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#40 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#41 C:\wamp\www\yorshop\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/backend/www/product/create/
+Nov 30 20:47:26 [php                           ] : <E> urlencode() expects parameter 1 to be string, array given (C:\wamp\www\yorshop\common\lib\Yii\web\CUrlManager.php:758)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(531): CUrlManager->createUrl()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(967): WebApplication->createUrl()
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php(606) : eval()'d code(1): ProductController->createUrl()
+#3 C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php(606): eval()
+#4 C:\wamp\www\yorshop\common\extensions\bootstrap\widgets\TbButtonColumn.php(69): TbButtonColumn->evaluateExpression()
+#5 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CButtonColumn.php(295): TbButtonColumn->renderButton()
+#6 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridColumn.php(144): TbButtonColumn->renderDataCellContent()
+#7 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridView.php(589): TbButtonColumn->renderDataCell()
+#8 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridView.php(545): TbGridView->renderTableRow()
+#9 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridView.php(455): TbGridView->renderTableBody()
+#10 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(160): TbGridView->renderItems()
+#11 unknown(0): TbGridView->renderSection()
+#12 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#13 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(128): TbGridView->renderContent()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(173): TbGridView->run()
+#15 C:\wamp\www\yorshop\backend\views\product\_attribute.php(99): ProductController->widget()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): ProductController->renderInternal()
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#19 C:\wamp\www\yorshop\backend\views\product\_form_product.php(30): ProductController->renderPartial()
+#20 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): ProductController->renderInternal()
+#22 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#23 C:\wamp\www\yorshop\backend\controllers\ProductController.php(69): ProductController->renderPartial()
+#24 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProductController->actionCreate()
+#25 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#26 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): ProductController->runAction()
+#27 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#28 C:\wamp\www\yorshop\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#29 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterChangePassword()
+#30 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#31 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#32 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#33 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterAccessControl()
+#34 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#35 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#36 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): ProductController->runActionWithFilters()
+#37 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): ProductController->run()
+#38 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#39 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#40 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#41 C:\wamp\www\yorshop\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/backend/www/product/create/
+Nov 30 20:48:14 [php                           ] : <E> urlencode() expects parameter 1 to be string, array given (C:\wamp\www\yorshop\common\lib\Yii\web\CUrlManager.php:758)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(531): CUrlManager->createUrl()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(967): WebApplication->createUrl()
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php(606) : eval()'d code(1): ProductController->createUrl()
+#3 C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php(606): eval()
+#4 C:\wamp\www\yorshop\common\extensions\bootstrap\widgets\TbButtonColumn.php(69): TbButtonColumn->evaluateExpression()
+#5 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CButtonColumn.php(295): TbButtonColumn->renderButton()
+#6 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridColumn.php(144): TbButtonColumn->renderDataCellContent()
+#7 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridView.php(589): TbButtonColumn->renderDataCell()
+#8 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridView.php(545): TbGridView->renderTableRow()
+#9 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\grid\CGridView.php(455): TbGridView->renderTableBody()
+#10 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(160): TbGridView->renderItems()
+#11 unknown(0): TbGridView->renderSection()
+#12 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(143): preg_replace_callback()
+#13 C:\wamp\www\yorshop\common\lib\Yii\zii\widgets\CBaseListView.php(128): TbGridView->renderContent()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(173): TbGridView->run()
+#15 C:\wamp\www\yorshop\backend\views\product\_attribute.php(99): ProductController->widget()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): ProductController->renderInternal()
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#19 C:\wamp\www\yorshop\backend\views\product\_form_product.php(30): ProductController->renderPartial()
+#20 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require()
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): ProductController->renderInternal()
+#22 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): ProductController->renderFile()
+#23 C:\wamp\www\yorshop\backend\controllers\ProductController.php(69): ProductController->renderPartial()
+#24 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProductController->actionCreate()
+#25 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#26 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): ProductController->runAction()
+#27 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#28 C:\wamp\www\yorshop\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#29 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterChangePassword()
+#30 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#31 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#32 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#33 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterAccessControl()
+#34 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#35 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#36 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): ProductController->runActionWithFilters()
+#37 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): ProductController->run()
+#38 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#39 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#40 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#41 C:\wamp\www\yorshop\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/backend/www/product/create/

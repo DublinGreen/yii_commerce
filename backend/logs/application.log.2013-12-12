@@ -1,0 +1,35 @@
+Dec 12 16:35:37 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/8/42300c46cff5973dbc1f914fcf1b8798.jpg".' in C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/8/42300...')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/8/42300...')
+#2 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/yorshop/backend/www/uploads/8/42300c46cff5973dbc1f914fcf1b8798.jpg
+HTTP_REFERER=http://localhost/yorshop/backend/www/category/
+---
+Dec 12 16:35:48 [php                           ] : <E> include(C:\wamp\www\yorshop\backend\models\_base\BaseProduct.php): failed to open stream: No such file or directory (C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php:395)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\models\Product.php(6): spl_autoload_call()
+#1 C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php(421): include()
+#2 unknown(0): autoload()
+#3 C:\wamp\www\yorshop\backend\controllers\ProductController.php(542): spl_autoload_call()
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): ProductController->actionIndex()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): ProductController->runAction()
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\wamp\www\yorshop\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterChangePassword()
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): ProductController->filterAccessControl()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): ProductController->runActionWithFilters()
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): ProductController->run()
+#18 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#20 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#21 C:\wamp\www\yorshop\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/backend/www/product/

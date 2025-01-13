@@ -1,0 +1,106 @@
+Feb 25 06:54:26 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "js/vendor/jquery-1.10.1.min.map".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('js/vendor/jquer...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('js/vendor/jquer...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/js/vendor/jquery-1.10.1.min.map
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/product/computer/laptops/hp-pavilion-touchsmart-15-n040us/
+---
+Feb 25 06:58:33 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "js/vendor/jquery-1.10.1.min.map".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('js/vendor/jquer...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('js/vendor/jquer...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/js/vendor/jquery-1.10.1.min.map
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/food-drinks/wines/
+---
+Feb 25 07:02:32 [exception.CException          ] : <E> exception 'CException' with message 'CategoryNavigation has an extra endWidget() call in its view.' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php:210
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\frontend\widgets\views\category_navigation.php(62): CBaseController->endWidget()
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(130): require('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, false)
+#3 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\widgets\CWidget.php(243): CBaseController->renderFile('C:\xampp\htdocs...', Array, false)
+#4 C:\xampp\htdocs\SITE\yorshop\frontend\widgets\CategoryNavigation.php(32): CWidget->render('category_naviga...', Array)
+#5 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(173): CategoryNavigation->run()
+#6 C:\xampp\htdocs\SITE\yorshop\frontend\views\category\_default.php(2): CBaseController->widget('frontend.widget...', Array)
+#7 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#8 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#10 C:\xampp\htdocs\SITE\yorshop\frontend\views\category\default.php(1): CController->renderPartial('_default', Array)
+#11 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#14 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(782): CController->renderPartial('default', Array, true)
+#15 C:\xampp\htdocs\SITE\yorshop\frontend\controllers\CategoryController.php(176): CController->render('default', Array)
+#16 C:\xampp\htdocs\SITE\yorshop\frontend\controllers\CategoryController.php(82): CategoryController->paginate('wines')
+#17 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAll()
+#18 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#20 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('all')
+#22 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/all')
+#23 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/all')
+#24 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#26 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/category/food-drinks/wines/
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/product/food-drinks/wines/johnny-walker-red-label-whisky-wop/
+---
+Feb 25 07:02:46 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "js/vendor/jquery-1.10.1.min.map".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('js/vendor/jquer...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('js/vendor/jquer...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/js/vendor/jquery-1.10.1.min.map
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/food-drinks/wines/
+---
+Feb 25 07:03:07 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "js/vendor/jquery-1.10.1.min.map".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('js/vendor/jquer...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('js/vendor/jquer...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/js/vendor/jquery-1.10.1.min.map
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/category/food-drinks/wines/
+---
+Feb 25 10:12:42 [exception.CException          ] : <E> exception 'CException' with message 'Property "Order.phone" is not defined.' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(143): CComponent->__get('phone')
+#1 C:\xampp\htdocs\SITE\yorshop\frontend\views\cart\_online2.php(29): CActiveRecord->__get('phone')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(782): CController->renderPartial('_online2', Array, true)
+#6 C:\xampp\htdocs\SITE\yorshop\frontend\controllers\CartController.php(338): CController->render('_online2', Array)
+#7 [internal function]: CartController->actionPayment('55')
+#8 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(CartController), Array)
+#9 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(CartController), Object(ReflectionMethod), Array)
+#10 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('payment')
+#14 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('cart/payment')
+#15 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('cart/payment')
+#16 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#18 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/cart/payment/55/
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/cart/payment/55/
+---
+Feb 25 10:13:29 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "img/interswitch-logo.png".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('img/interswitch...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('img/interswitch...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\frontend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/frontend/www/img/interswitch-logo.png
+HTTP_REFERER=http://localhost/SITE/yorshop/frontend/www/cart/payment/56/
+---

@@ -1,0 +1,568 @@
+Nov 17 20:15:48 [application                   ] : <E> Extra model:
+array
+(
+    0 => Image#1
+    (
+        [pkSeparator] => '-'
+        [repColumnsSeparator] => '-'
+        [CActiveRecord:_md] => CActiveRecordMetaData#2
+        (
+            [tableSchema] => CMysqlTableSchema#3
+            (
+                [schemaName] => null
+                [name] => 'image'
+                [rawName] => '`image`'
+                [primaryKey] => 'id'
+                [sequenceName] => ''
+                [foreignKeys] => array()
+                [columns] => array
+                (
+                    'id' => CMysqlColumnSchema#4
+                    (
+                        [name] => 'id'
+                        [rawName] => '`id`'
+                        [allowNull] => false
+                        [dbType] => 'int(11)'
+                        [type] => 'integer'
+                        [defaultValue] => null
+                        [size] => 11
+                        [precision] => 11
+                        [scale] => null
+                        [isPrimaryKey] => true
+                        [isForeignKey] => false
+                        [autoIncrement] => true
+                        [comment] => ''
+                        [CComponent:_e] => null
+                        [CComponent:_m] => null
+                    )
+                    'model_id' => CMysqlColumnSchema#5
+                    (
+                        [name] => 'model_id'
+                        [rawName] => '`model_id`'
+                        [allowNull] => false
+                        [dbType] => 'int(11)'
+                        [type] => 'integer'
+                        [defaultValue] => null
+                        [size] => 11
+                        [precision] => 11
+                        [scale] => null
+                        [isPrimaryKey] => false
+                        [isForeignKey] => false
+                        [autoIncrement] => false
+                        [comment] => ''
+                        [CComponent:_e] => null
+                        [CComponent:_m] => null
+                    )
+                    'sort_order' => CMysqlColumnSchema#6
+                    (
+                        [name] => 'sort_order'
+                        [rawName] => '`sort_order`'
+                        [allowNull] => false
+                        [dbType] => 'int(3)'
+                        [type] => 'integer'
+                        [defaultValue] => 0
+                        [size] => 3
+                        [precision] => 3
+                        [scale] => null
+                        [isPrimaryKey] => false
+                        [isForeignKey] => false
+                        [autoIncrement] => false
+                        [comment] => ''
+                        [CComponent:_e] => null
+                        [CComponent:_m] => null
+                    )
+                    'size' => CMysqlColumnSchema#7
+                    (
+                        [name] => 'size'
+                        [rawName] => '`size`'
+                        [allowNull] => false
+                        [dbType] => 'varchar(10)'
+                        [type] => 'string'
+                        [defaultValue] => null
+                        [size] => 10
+                        [precision] => 10
+                        [scale] => null
+                        [isPrimaryKey] => false
+                        [isForeignKey] => false
+                        [autoIncrement] => false
+                        [comment] => ''
+                        [CComponent:_e] => null
+                        [CComponent:_m] => null
+                    )
+                    'mime' => CMysqlColumnSchema#8
+                    (
+                        [name] => 'mime'
+                        [rawName] => '`mime`'
+                        [allowNull] => false
+                        [dbType] => 'varchar(10)'
+                        [type] => 'string'
+                        [defaultValue] => null
+                        [size] => 10
+                        [precision] => 10
+                        [scale] => null
+                        [isPrimaryKey] => false
+                        [isForeignKey] => false
+                        [autoIncrement] => false
+                        [comment] => ''
+                        [CComponent:_e] => null
+                        [CComponent:_m] => null
+                    )
+                    'name' => CMysqlColumnSchema#9
+                    (
+                        [name] => 'name'
+                        [rawName] => '`name`'
+                        [allowNull] => false
+                        [dbType] => 'varchar(50)'
+                        [type] => 'string'
+                        [defaultValue] => null
+                        [size] => 50
+                        [precision] => 50
+                        [scale] => null
+                        [isPrimaryKey] => false
+                        [isForeignKey] => false
+                        [autoIncrement] => false
+                        [comment] => ''
+                        [CComponent:_e] => null
+                        [CComponent:_m] => null
+                    )
+                    'source' => CMysqlColumnSchema#10
+                    (
+                        [name] => 'source'
+                        [rawName] => '`source`'
+                        [allowNull] => false
+                        [dbType] => 'varchar(255)'
+                        [type] => 'string'
+                        [defaultValue] => null
+                        [size] => 255
+                        [precision] => 255
+                        [scale] => null
+                        [isPrimaryKey] => false
+                        [isForeignKey] => false
+                        [autoIncrement] => false
+                        [comment] => ''
+                        [CComponent:_e] => null
+                        [CComponent:_m] => null
+                    )
+                    'model_name' => CMysqlColumnSchema#11
+                    (
+                        [name] => 'model_name'
+                        [rawName] => '`model_name`'
+                        [allowNull] => false
+                        [dbType] => 'varchar(50)'
+                        [type] => 'string'
+                        [defaultValue] => null
+                        [size] => 50
+                        [precision] => 50
+                        [scale] => null
+                        [isPrimaryKey] => false
+                        [isForeignKey] => false
+                        [autoIncrement] => false
+                        [comment] => ''
+                        [CComponent:_e] => null
+                        [CComponent:_m] => null
+                    )
+                )
+                [CComponent:_e] => null
+                [CComponent:_m] => null
+            )
+            [columns] => array
+            (
+                'id' => CMysqlColumnSchema#4(...)
+                'model_id' => CMysqlColumnSchema#5(...)
+                'sort_order' => CMysqlColumnSchema#6(...)
+                'size' => CMysqlColumnSchema#7(...)
+                'mime' => CMysqlColumnSchema#8(...)
+                'name' => CMysqlColumnSchema#9(...)
+                'source' => CMysqlColumnSchema#10(...)
+                'model_name' => CMysqlColumnSchema#11(...)
+            )
+            [relations] => array
+            (
+                'categories' => CHasManyRelation#12
+                (
+                    [limit] => -1
+                    [offset] => -1
+                    [index] => null
+                    [through] => null
+                    [joinType] => 'LEFT OUTER JOIN'
+                    [on] => ''
+                    [alias] => null
+                    [with] => array()
+                    [together] => null
+                    [scopes] => null
+                    [name] => 'categories'
+                    [className] => 'Category'
+                    [foreignKey] => 'image_id'
+                    [select] => '*'
+                    [condition] => ''
+                    [params] => array()
+                    [group] => ''
+                    [join] => ''
+                    [having] => ''
+                    [order] => ''
+                    [CComponent:_e] => null
+                    [CComponent:_m] => null
+                )
+            )
+            [attributeDefaults] => array
+            (
+                'sort_order' => 0
+            )
+            [CActiveRecordMetaData:_model] => Image#13
+            (
+                [pkSeparator] => '-'
+                [repColumnsSeparator] => '-'
+                [CActiveRecord:_md] => CActiveRecordMetaData#2(...)
+                [CActiveRecord:_new] => false
+                [CActiveRecord:_attributes] => array()
+                [CActiveRecord:_related] => array()
+                [CActiveRecord:_c] => null
+                [CActiveRecord:_pk] => null
+                [CActiveRecord:_alias] => 't'
+                [CModel:_errors] => array()
+                [CModel:_validators] => null
+                [CModel:_scenario] => ''
+                [CComponent:_e] => null
+                [CComponent:_m] => null
+            )
+        )
+        [CActiveRecord:_new] => false
+        [CActiveRecord:_attributes] => array
+        (
+            'id' => '4'
+            'model_id' => '13'
+            'sort_order' => '0'
+            'size' => '780831'
+            'mime' => 'image/jpeg'
+            'name' => 'Koala.jpg'
+            'source' => '/uploads/13/fbbc5795cd11209f0888f50e66281396.jpg'
+            'model_name' => 'Category'
+        )
+        [CActiveRecord:_related] => array()
+        [CActiveRecord:_c] => null
+        [CActiveRecord:_pk] => '4'
+        [CActiveRecord:_alias] => 't'
+        [CModel:_errors] => array()
+        [CModel:_validators] => null
+        [CModel:_scenario] => 'update'
+        [CComponent:_e] => null
+        [CComponent:_m] => null
+    )
+)
+Nov 17 20:15:49 [exception.CException          ] : <E> exception 'CException' with message 'Property "Category.image" is not defined.' in C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(143): CComponent->__get('image')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\helpers\CHtml.php(2255): CActiveRecord->__get('image')
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(Category), 'image')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\helpers\CHtml.php(1257): CHtml::activeInputField('text', Object(Category), 'image', Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\widgets\CActiveForm.php(657): CHtml::activeTextField(Object(Category), 'image', Array)
+#5 C:\wamp\www\yorshop\backend\views\category\_search.php(20): CActiveForm->textField(Object(Category), 'image', Array)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#9 C:\wamp\www\yorshop\backend\views\category\_manage.php(25): CController->renderPartial('_search', Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#13 C:\wamp\www\yorshop\backend\views\category\admin.php(19): CController->renderPartial('_manage', Array)
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#18 C:\wamp\www\yorshop\backend\components\CrudController.php(231): CController->render('admin', Array)
+#19 C:\wamp\www\yorshop\backend\controllers\CategoryController.php(213): CrudController->admin(Object(Category), 'Category')
+#20 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAdmin()
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#22 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#23 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#24 C:\wamp\www\yorshop\backend\components\Controller.php(68): CFilter->filter(Object(CFilterChain))
+#25 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): Controller->filterChangePassword(Object(CFilterChain))
+#26 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#27 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#28 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#29 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#30 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#31 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#32 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#33 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('admin')
+#34 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/admin')
+#35 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/admin')
+#36 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#37 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#38 {main}
+REQUEST_URI=/yorshop/backend/www/category/admin/
+HTTP_REFERER=http://localhost/yorshop/backend/www/category/13/
+---
+Nov 17 20:24:28 [php                           ] : <E> include(giix.php): failed to open stream: No such file or directory (C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php:421)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\wamp\www\yorshop\common\lib\Yii\i18n\CPhpMessageSource.php(118): ReflectionClass->__construct()
+#2 C:\wamp\www\yorshop\common\lib\Yii\i18n\CPhpMessageSource.php(136): CPhpMessageSource->getMessageFile()
+#3 C:\wamp\www\yorshop\common\lib\Yii\i18n\CMessageSource.php(103): CPhpMessageSource->loadMessages()
+#4 C:\wamp\www\yorshop\common\lib\Yii\i18n\CMessageSource.php(85): CPhpMessageSource->translateMessage()
+#5 C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php(578): CPhpMessageSource->translate()
+#6 C:\wamp\www\yorshop\common\extensions\giix\components\GxController.php(145): t()
+#7 C:\wamp\www\yorshop\backend\components\CrudController.php(10): CategoryController->loadModel()
+#8 C:\wamp\www\yorshop\backend\controllers\CategoryController.php(9): CategoryController->view()
+#9 unknown(0): CategoryController->actionView()
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): CategoryController->runAction()
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\wamp\www\yorshop\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): CategoryController->filterChangePassword()
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#20 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): CategoryController->filterAccessControl()
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#22 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#23 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CategoryController->runActionWithFilters()
+#24 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CategoryController->run()
+#25 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#26 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#27 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#28 C:\wamp\www\yorshop\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/backend/www/category/13/
+Nov 17 20:24:46 [exception.CException          ] : <E> exception 'CException' with message 'Property "Category.image" is not defined.' in C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(143): CComponent->__get('image')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\helpers\CHtml.php(2255): CActiveRecord->__get('image')
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(Category), 'image')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\helpers\CHtml.php(1257): CHtml::activeInputField('text', Object(Category), 'image', Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\widgets\CActiveForm.php(657): CHtml::activeTextField(Object(Category), 'image', Array)
+#5 C:\wamp\www\yorshop\backend\views\category\_search.php(20): CActiveForm->textField(Object(Category), 'image', Array)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#9 C:\wamp\www\yorshop\backend\views\category\_manage.php(25): CController->renderPartial('_search', Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#13 C:\wamp\www\yorshop\backend\views\category\admin.php(19): CController->renderPartial('_manage', Array)
+#14 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#18 C:\wamp\www\yorshop\backend\components\CrudController.php(228): CController->render('admin', Array)
+#19 C:\wamp\www\yorshop\backend\controllers\CategoryController.php(213): CrudController->admin(Object(Category), 'Category')
+#20 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAdmin()
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#22 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#23 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#24 C:\wamp\www\yorshop\backend\components\Controller.php(68): CFilter->filter(Object(CFilterChain))
+#25 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): Controller->filterChangePassword(Object(CFilterChain))
+#26 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#27 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#28 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#29 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#30 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#31 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#32 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#33 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('admin')
+#34 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/admin')
+#35 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/admin')
+#36 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#37 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#38 {main}
+REQUEST_URI=/yorshop/backend/www/category/admin/
+HTTP_REFERER=http://localhost/yorshop/backend/www/category/10/
+---
+Nov 17 20:25:16 [exception.CException          ] : <E> exception 'CException' with message 'Property "Category.image" is not defined.' in C:\wamp\www\yorshop\common\lib\Yii\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(143): CComponent->__get('image')
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\helpers\CHtml.php(2255): CActiveRecord->__get('image')
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(Category), 'image')
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\helpers\CHtml.php(1257): CHtml::activeInputField('text', Object(Category), 'image', Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\widgets\CActiveForm.php(657): CHtml::activeTextField(Object(Category), 'image', Array)
+#5 C:\wamp\www\yorshop\backend\views\category\_search.php(20): CActiveForm->textField(Object(Category), 'image', Array)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#7 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#9 C:\wamp\www\yorshop\backend\views\category\_manage.php(25): CController->renderPartial('_search', Array)
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(126): require('C:\wamp\www\yor...')
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\yor...', Array, true)
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\yor...', Array, true)
+#13 C:\wamp\www\yorshop\backend\components\CrudController.php(222): CController->renderPartial('_manage', Array, false, true)
+#14 C:\wamp\www\yorshop\backend\controllers\CategoryController.php(213): CrudController->admin(Object(Category), 'Category')
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CategoryController->actionAdmin()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\wamp\www\yorshop\backend\components\Controller.php(68): CFilter->filter(Object(CFilterChain))
+#20 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): Controller->filterChangePassword(Object(CFilterChain))
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#23 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#24 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#25 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#26 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#27 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#28 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('admin')
+#29 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('category/admin')
+#30 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('category/admin')
+#31 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#32 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#33 {main}
+REQUEST_URI=/yorshop/backend/www/category/admin/
+HTTP_REFERER=http://localhost/yorshop/backend/www/category/index/
+---
+Nov 17 20:45:27 [php                           ] : <E> include(giix.php): failed to open stream: No such file or directory (C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php:421)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\wamp\www\yorshop\common\lib\Yii\i18n\CPhpMessageSource.php(118): ReflectionClass->__construct()
+#2 C:\wamp\www\yorshop\common\lib\Yii\i18n\CPhpMessageSource.php(136): CPhpMessageSource->getMessageFile()
+#3 C:\wamp\www\yorshop\common\lib\Yii\i18n\CMessageSource.php(103): CPhpMessageSource->loadMessages()
+#4 C:\wamp\www\yorshop\common\lib\Yii\i18n\CMessageSource.php(85): CPhpMessageSource->translateMessage()
+#5 C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php(578): CPhpMessageSource->translate()
+#6 C:\wamp\www\yorshop\common\extensions\giix\components\GxController.php(129): t()
+#7 C:\wamp\www\yorshop\backend\controllers\AttributeGroupController.php(50): AttributeGroupController->loadModel()
+#8 unknown(0): AttributeGroupController->actionUpdate()
+#9 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#10 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#11 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): AttributeGroupController->runAction()
+#13 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\wamp\www\yorshop\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#15 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): AttributeGroupController->filterChangePassword()
+#16 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#17 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#18 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#19 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): AttributeGroupController->filterAccessControl()
+#20 C:\wamp\www\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#21 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#22 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): AttributeGroupController->runActionWithFilters()
+#23 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): AttributeGroupController->run()
+#24 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#25 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#26 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#27 C:\wamp\www\yorshop\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/backend/www/attributeGroup/update/4/
+Nov 17 21:09:00 [application                   ] : <W> Failed to set unsafe attribute "categories" of "Category".
+Nov 17 21:09:00 [application                   ] : <W> Failed to set unsafe attribute "categoryDescriptions" of "Category".
+Nov 17 21:09:31 [application                   ] : <W> Failed to set unsafe attribute "categories" of "Category".
+Nov 17 21:09:31 [application                   ] : <W> Failed to set unsafe attribute "categoryDescriptions" of "Category".
+Nov 17 23:01:37 [php                           ] : <E> include(CyModelGenerator.php): failed to open stream: No such file or directory (C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php:421)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php(204): spl_autoload_call()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(332): createComponent()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(338): WebApplication->createController()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(276): WebApplication->createController()
+#4 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#6 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#7 C:\wamp\www\yorshop\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/backend/www/gii/cyModel/
+Nov 17 23:04:07 [php                           ] : <E> include(CyModelGenerator.php): failed to open stream: No such file or directory (C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php:421)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php(204): spl_autoload_call()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(332): createComponent()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(338): WebApplication->createController()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(276): WebApplication->createController()
+#4 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#6 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#7 C:\wamp\www\yorshop\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/backend/www/gii/cyModel/
+Nov 17 23:04:09 [php                           ] : <E> include(CyModelGenerator.php): failed to open stream: No such file or directory (C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php:421)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php(204): spl_autoload_call()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(332): createComponent()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(338): WebApplication->createController()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(276): WebApplication->createController()
+#4 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#6 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#7 C:\wamp\www\yorshop\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/backend/www/gii/cyModel/
+Nov 17 23:04:10 [php                           ] : <E> include(CyModelGenerator.php): failed to open stream: No such file or directory (C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php:421)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php(204): spl_autoload_call()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(332): createComponent()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(338): WebApplication->createController()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(276): WebApplication->createController()
+#4 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#6 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#7 C:\wamp\www\yorshop\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/backend/www/gii/cyModel/
+Nov 17 23:12:08 [php                           ] : <E> include(CyModelGenerator.php): failed to open stream: No such file or directory (C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php:421)
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php(204): spl_autoload_call()
+#1 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(332): createComponent()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(338): WebApplication->createController()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(276): WebApplication->createController()
+#4 C:\wamp\www\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#6 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#7 C:\wamp\www\yorshop\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/yorshop/backend/www/gii/cyModel/
+Nov 17 23:50:06 [exception.CException          ] : <E> exception 'CException' with message 'Alias "gii.generators.crud.CyCrudCode" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php:316
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\gii\CCodeGenerator.php(152): YiiBase::import('gii.generators....', true)
+#1 C:\wamp\www\yorshop\common\lib\Yii\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('')
+#7 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('gii/cyCrud')
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('gii/cyCrud')
+#9 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#11 {main}
+REQUEST_URI=/yorshop/backend/www/gii/cyCrud/
+HTTP_REFERER=http://localhost/yorshop/backend/www/gii/
+---
+Nov 17 23:51:13 [exception.CException          ] : <E> exception 'CException' with message 'Alias "gii.generators.cyCrud.CyCrudCode" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php:316
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\gii\CCodeGenerator.php(152): YiiBase::import('gii.generators....', true)
+#1 C:\wamp\www\yorshop\common\lib\Yii\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('')
+#7 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('gii/cyCrud')
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('gii/cyCrud')
+#9 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#11 {main}
+REQUEST_URI=/yorshop/backend/www/gii/cyCrud/
+HTTP_REFERER=http://localhost/yorshop/backend/www/gii/
+---
+Nov 17 23:51:17 [exception.CException          ] : <E> exception 'CException' with message 'Alias "gii.generators.cyCrud.CyCrudCode" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php:316
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\gii\CCodeGenerator.php(152): YiiBase::import('gii.generators....', true)
+#1 C:\wamp\www\yorshop\common\lib\Yii\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('')
+#7 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('gii/cyCrud')
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('gii/cyCrud')
+#9 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#11 {main}
+REQUEST_URI=/yorshop/backend/www/gii/cyCrud/
+HTTP_REFERER=http://localhost/yorshop/backend/www/gii/
+---
+Nov 17 23:51:25 [exception.CException          ] : <E> exception 'CException' with message 'Alias "gii.generators.cyCrud.CyCrudCode" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\wamp\www\yorshop\common\lib\Yii\YiiBase.php:316
+Stack trace:
+#0 C:\wamp\www\yorshop\common\lib\Yii\gii\CCodeGenerator.php(152): YiiBase::import('gii.generators....', true)
+#1 C:\wamp\www\yorshop\common\lib\Yii\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#2 C:\wamp\www\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#3 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('')
+#7 C:\wamp\www\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('gii/cyCrud')
+#8 C:\wamp\www\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('gii/cyCrud')
+#9 C:\wamp\www\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wamp\www\yorshop\backend\www\index.php(38): CApplication->run()
+#11 {main}
+REQUEST_URI=/yorshop/backend/www/gii/cyCrud/
+HTTP_REFERER=http://localhost/yorshop/backend/www/gii/
+---

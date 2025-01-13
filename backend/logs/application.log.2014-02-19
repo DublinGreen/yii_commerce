@@ -1,0 +1,667 @@
+Feb 19 16:02:25 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/68/79c9696d0543fc461f6cf27c5864cb67.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/68/79c9...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/68/79c9...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/68/79c9696d0543fc461f6cf27c5864cb67.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:25 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/66/ad2173bf2c8ac87bf56cf85997df6ed0.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/66/ad21...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/66/ad21...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/66/ad2173bf2c8ac87bf56cf85997df6ed0.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:25 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/64/e2d1091b800151a241a595650dd6c8e4.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/64/e2d1...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/64/e2d1...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/64/e2d1091b800151a241a595650dd6c8e4.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:25 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/67/aea9d5dc99912e563d7e37cbc67acd37.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/67/aea9...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/67/aea9...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/67/aea9d5dc99912e563d7e37cbc67acd37.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:25 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/69/b85853bcedd786f5863708bd9a356450.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/69/b858...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/69/b858...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/69/b85853bcedd786f5863708bd9a356450.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:25 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/65/66b9f1d4353deed6ec320271154f7c5f.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/65/66b9...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/65/66b9...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/65/66b9f1d4353deed6ec320271154f7c5f.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:25 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/73/097eab44a4f0dd36405df0d0559e5893.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/73/097e...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/73/097e...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/73/097eab44a4f0dd36405df0d0559e5893.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:26 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/72/2926b7e634bffb6640454e89993005af.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/72/2926...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/72/2926...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/72/2926b7e634bffb6640454e89993005af.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:26 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/71/0a57afa762948d77e82ffd378057e79a.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/71/0a57...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/71/0a57...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/71/0a57afa762948d77e82ffd378057e79a.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:26 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/74/30d57dd5a6fc8f98e0b1dfe9397cb183.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/74/30d5...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/74/30d5...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/74/30d57dd5a6fc8f98e0b1dfe9397cb183.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:26 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/76/ac4e1d5426823fdb650d376857ad385d.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/76/ac4e...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/76/ac4e...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/76/ac4e1d5426823fdb650d376857ad385d.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:26 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/77/0e61f8affc7cb9fdefdb0179799d3777.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/77/0e61...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/77/0e61...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/77/0e61f8affc7cb9fdefdb0179799d3777.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:26 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/78/df248ed9fbbd78d030d5bac41511101d.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/78/df24...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/78/df24...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/78/df248ed9fbbd78d030d5bac41511101d.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:26 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/79/cf1461748abdce109bc867f2410c47a2.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/79/cf14...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/79/cf14...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/79/cf1461748abdce109bc867f2410c47a2.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:26 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/80/28ee56a52a0e50e0799a9f941176ca4b.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/80/28ee...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/80/28ee...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/80/28ee56a52a0e50e0799a9f941176ca4b.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:27 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/81/f42568b5beeb471cea0ec1460ea39eda.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/81/f425...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/81/f425...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/81/f42568b5beeb471cea0ec1460ea39eda.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:27 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/82/e3b869733f9a511a61cb0a1ced7b3df5.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/82/e3b8...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/82/e3b8...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/82/e3b869733f9a511a61cb0a1ced7b3df5.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:27 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/83/e7e0e313deea45c798bc6afd7e51781b.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/83/e7e0...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/83/e7e0...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/83/e7e0e313deea45c798bc6afd7e51781b.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:27 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/84/e26f2f43be13cd8ce70ba61bddc1b76c.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/84/e26f...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/84/e26f...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/84/e26f2f43be13cd8ce70ba61bddc1b76c.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:27 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/85/615032299b3b66040aab423dc2fff5f1.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/85/6150...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/85/6150...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/85/615032299b3b66040aab423dc2fff5f1.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:27 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/86/da51ed0b4b47a01011ec83bffccbb79d.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/86/da51...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/86/da51...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/86/da51ed0b4b47a01011ec83bffccbb79d.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:28 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/89/3c73703dd0b9b4ad767feef9cd906516.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/89/3c73...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/89/3c73...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/89/3c73703dd0b9b4ad767feef9cd906516.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:28 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/88/ca7294fdc6e0b25bb4cdc458aa38c904.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/88/ca72...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/88/ca72...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/88/ca7294fdc6e0b25bb4cdc458aa38c904.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:28 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/87/83831cf3917736cf12efc5f2da55a296.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/87/8383...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/87/8383...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/87/83831cf3917736cf12efc5f2da55a296.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:28 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/90/010057a77398e6f7d60eaf783ed1b819.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/90/0100...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/90/0100...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/90/010057a77398e6f7d60eaf783ed1b819.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:28 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/91/15fcd724892a8ff28edd28262ce3f007.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/91/15fc...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/91/15fc...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/91/15fcd724892a8ff28edd28262ce3f007.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:28 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/94/7a192ad2c6b104f1bad20d1d50be1811.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/94/7a19...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/94/7a19...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/94/7a192ad2c6b104f1bad20d1d50be1811.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:28 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/92/109e05a844a5054b0e0bab90cc3361c9.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/92/109e...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/92/109e...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/92/109e05a844a5054b0e0bab90cc3361c9.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:28 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/95/3765546b41b56ce5ec471eaf8b4d298e.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/95/3765...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/95/3765...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/95/3765546b41b56ce5ec471eaf8b4d298e.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:28 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/97/355817e64f538cdbc15fffe85c8553e7.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/97/3558...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/97/3558...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/97/355817e64f538cdbc15fffe85c8553e7.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:28 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/96/ff284b370972ab6dd40e8ee312acb2f5.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/96/ff28...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/96/ff28...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/96/ff284b370972ab6dd40e8ee312acb2f5.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:28 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/98/93f360d3767e8f8f906fd84b07ebacd3.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/98/93f3...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/98/93f3...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/98/93f360d3767e8f8f906fd84b07ebacd3.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:28 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/101/6b3e6145784bb47f3d14ad7d55fb1240.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/101/6b3...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/101/6b3...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/101/6b3e6145784bb47f3d14ad7d55fb1240.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:28 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/100/cec66a7a74a913e01c96bb89c7e073e5.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/100/cec...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/100/cec...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/100/cec66a7a74a913e01c96bb89c7e073e5.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:28 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/99/a5d1c93fc327a046882c0d3192025a60.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/99/a5d1...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/99/a5d1...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/99/a5d1c93fc327a046882c0d3192025a60.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:29 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/102/016edf42dab0d8f47dca2e40984ed3b9.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/102/016...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/102/016...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/102/016edf42dab0d8f47dca2e40984ed3b9.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:29 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/108/b025a31e0a218821cc630c5f3c0c972e.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/108/b02...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/108/b02...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/108/b025a31e0a218821cc630c5f3c0c972e.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:29 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/107/2fb139e80f89e5ca42f611a19f8b326a.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/107/2fb...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/107/2fb...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/107/2fb139e80f89e5ca42f611a19f8b326a.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:29 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/106/64bdcf3631d01d0d00d9d4d98bfd1f52.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/106/64b...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/106/64b...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/106/64bdcf3631d01d0d00d9d4d98bfd1f52.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:29 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/109/c7358989de7630fca992d648d5da84cf.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/109/c73...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/109/c73...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/109/c7358989de7630fca992d648d5da84cf.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:29 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/110/c883cedc0076811f9878ce3db95fe04a.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/110/c88...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/110/c88...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/110/c883cedc0076811f9878ce3db95fe04a.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:29 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/111/f18ecde54ff2e755d6535f45e57511c3.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/111/f18...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/111/f18...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/111/f18ecde54ff2e755d6535f45e57511c3.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:29 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/112/179e26f977d41a948265214061375abd.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/112/179...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/112/179...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/112/179e26f977d41a948265214061375abd.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:29 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/114/842366702b8ed7552871b8a99ffb3daf.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/114/842...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/114/842...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/114/842366702b8ed7552871b8a99ffb3daf.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:29 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/115/2fda8871d623fc8452d35b8f90d87e2f.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/115/2fd...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/115/2fd...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/115/2fda8871d623fc8452d35b8f90d87e2f.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:29 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/116/73d9f6f77ad4e416aa268a62bdcd2964.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/116/73d...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/116/73d...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/116/73d9f6f77ad4e416aa268a62bdcd2964.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:29 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/117/d386e65e250fbbcd116bc01861fd479f.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/117/d38...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/117/d38...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/117/d386e65e250fbbcd116bc01861fd479f.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:29 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/118/e2ed8ec0acf866cabbdf1a8fcc9790aa.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/118/e2e...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/118/e2e...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/118/e2ed8ec0acf866cabbdf1a8fcc9790aa.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:02:30 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "uploads/63/9ee78855ed9c0336de60da2215dfd8e9.jpg".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('uploads/63/9ee7...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('uploads/63/9ee7...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/uploads/63/9ee78855ed9c0336de60da2215dfd8e9.jpg
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/category/index/
+---
+Feb 19 16:07:28 [php                           ] : <E> Undefined variable: description (C:\xampp\htdocs\SITE\yorshop\backend\views\page\_form.php:46)
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(869): PageController->renderFile()
+#1 C:\xampp\htdocs\SITE\yorshop\backend\components\CrudController.php(40): PageController->renderPartial()
+#2 C:\xampp\htdocs\SITE\yorshop\backend\controllers\PageController.php(13): PageController->create()
+#3 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): PageController->actionCreate()
+#4 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): PageController->runAction()
+#6 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\SITE\yorshop\backend\components\Controller.php(68): ChangePasswordFilter->filter()
+#8 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): PageController->filterChangePassword()
+#9 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): PageController->filterAccessControl()
+#13 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(265): PageController->runActionWithFilters()
+#16 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(282): PageController->run()
+#17 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#18 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#19 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#20 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/SITE/yorshop/backend/www/page/create/
+Feb 19 16:23:38 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "productViewReport/admin".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('productViewRepo...')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('productViewRepo...')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/productViewReport/admin/
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/page/index/
+---
+Feb 19 16:31:45 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "index".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('index')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('index')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/index
+---
+Feb 19 16:33:41 [exception.CException          ] : <E> exception 'CException' with message 'Alias "common.models.Languages" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\YiiBase.php:316
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\gii\generators\crud\CrudCode.php(59): YiiBase::import('common.models.L...', true)
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\validators\CInlineValidator.php(42): CrudCode->validateModel('model', Array)
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(CyCrudCode), 'model')
+#3 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CModel.php(159): CValidator->validate(Object(CyCrudCode), NULL)
+#4 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\gii\CCodeGenerator.php(159): CModel->validate()
+#5 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#6 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#7 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('')
+#11 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('gii/cyCrud')
+#12 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('gii/cyCrud')
+#13 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/gii/cyCrud/
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/gii/cyCrud/
+---
+Feb 19 16:33:52 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "index".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('index')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('index')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/index
+---
+Feb 19 16:33:54 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'Unable to resolve the request "index".' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('index')
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('index')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#4 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/index
+---
+Feb 19 16:36:26 [exception.CException          ] : <E> exception 'CException' with message 'Alias "common.models.Weight" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\YiiBase.php:316
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\gii\generators\crud\CrudCode.php(59): YiiBase::import('common.models.W...', true)
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\validators\CInlineValidator.php(42): CrudCode->validateModel('model', Array)
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(CyCrudCode), 'model')
+#3 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CModel.php(159): CValidator->validate(Object(CyCrudCode), NULL)
+#4 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\gii\CCodeGenerator.php(159): CModel->validate()
+#5 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#6 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#7 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('')
+#11 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('gii/cyCrud')
+#12 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('gii/cyCrud')
+#13 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/gii/cyCrud/
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/gii/cyCrud/
+---
+Feb 19 18:07:14 [php                           ] : <E> include(Newsletter.php): failed to open stream: No such file or directory (C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\YiiBase.php:421)
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\db\ar\CActiveRecord.php(386): spl_autoload_call()
+#1 C:\xampp\htdocs\SITE\yorshop\common\gii\generators\cyModel\CyModelCode.php(98): model()
+#2 C:\xampp\htdocs\SITE\yorshop\common\gii\generators\cyModel\templates\translate\_base\basemodel.php(14): CyModelCode->getDescriptions()
+#3 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\gii\CCodeModel.php(319): require()
+#4 C:\xampp\htdocs\SITE\yorshop\common\gii\generators\cyModel\CyModelCode.php(83): CyModelCode->render()
+#5 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\gii\CCodeGenerator.php(162): CyModelCode->prepare()
+#6 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\gii\CCodeGenerator.php(63): CyModelGenerator->prepare()
+#7 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CyModelGenerator->actionIndex()
+#8 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(286): CyModelGenerator->runAction()
+#10 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(265): CyModelGenerator->runActionWithFilters()
+#11 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(282): CyModelGenerator->run()
+#12 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): WebApplication->runController()
+#13 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController()
+#14 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): WebApplication->processRequest()
+#15 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): WebApplication->run()
+REQUEST_URI=/SITE/yorshop/backend/www/gii/cyModel/
+Feb 19 18:09:48 [system.db.CDbCommand          ] : <E> CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'common.models' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `common`.`models`.
+Feb 19 18:10:06 [system.db.CDbCommand          ] : <E> CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'common.models' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `common`.`models`.
+Feb 19 18:10:16 [system.db.CDbCommand          ] : <E> CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'common.models' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `common`.`models`.
+Feb 19 18:10:33 [system.db.CDbCommand          ] : <E> CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'common.models' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `common`.`models`.
+Feb 19 18:10:33 [system.db.CDbCommand          ] : <E> CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'common.models' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `common`.`models`.
+Feb 19 18:11:01 [system.db.CDbCommand          ] : <E> CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'common.models' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `common`.`models`.
+Feb 19 18:11:01 [system.db.CDbCommand          ] : <E> CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'common.models' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `common`.`models`.
+Feb 19 18:11:23 [system.db.CDbCommand          ] : <E> CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'common.models' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `common`.`models`.
+Feb 19 18:12:28 [exception.CException          ] : <E> exception 'CException' with message 'Alias "common.modesl.Newsletter" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\YiiBase.php:316
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\gii\generators\crud\CrudCode.php(59): YiiBase::import('common.modesl.N...', true)
+#1 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\validators\CInlineValidator.php(42): CrudCode->validateModel('model', Array)
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(CyCrudCode), 'model')
+#3 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CModel.php(159): CValidator->validate(Object(CyCrudCode), NULL)
+#4 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\gii\CCodeGenerator.php(159): CModel->validate()
+#5 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#6 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#7 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('')
+#11 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('gii/cyCrud')
+#12 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('gii/cyCrud')
+#13 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#15 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/gii/cyCrud/
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/gii/cyCrud/
+---
+Feb 19 19:01:48 [exception.CHttpException.404  ] : <E> exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\SITE\yorshop\backend\components\CrudController.php:598
+Stack trace:
+#0 C:\xampp\htdocs\SITE\yorshop\backend\components\CrudController.php(140): CrudController->loadModel('2', 'Newsletter')
+#1 C:\xampp\htdocs\SITE\yorshop\backend\controllers\NewsletterController.php(26): CrudController->batchDelete('Newsletter')
+#2 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\actions\CInlineAction.php(49): NewsletterController->actionBatchDelete()
+#3 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\SITE\yorshop\backend\components\Controller.php(68): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): Controller->filterChangePassword(Object(CFilterChain))
+#8 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(291): CFilterChain->run()
+#14 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(282): CController->run('batchdelete')
+#16 C:\xampp\htdocs\SITE\yorshop\common\components\WebApplication.php(33): CWebApplication->runController('newsletter/batc...')
+#17 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\web\CWebApplication.php(141): WebApplication->runController('newsletter/batc...')
+#18 C:\xampp\htdocs\SITE\yorshop\common\lib\Yii\base\CApplication.php(169): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\SITE\yorshop\backend\www\index.php(38): CApplication->run()
+#20 {main}
+REQUEST_URI=/SITE/yorshop/backend/www/newsletter/batchdelete/
+HTTP_REFERER=http://localhost/SITE/yorshop/backend/www/newsletter/index/
+---
